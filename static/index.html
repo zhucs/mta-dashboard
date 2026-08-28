@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>MTA Live Arrivals</title>
+<style>
+  :root {
+    color-scheme: light dark;
+    --bg: #fdf8ec;
+    --card-bg: #fffdf7;
+    --text: #241f1a;
+    --muted: #83786b;
+    --ink: #241f1a;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #171310;
+      --card-bg: #221d18;
+      --text: #f4ecdf;
+      --muted: #a89c8b;
+      --ink: #f4ecdf;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    padding: 2.5rem 1rem 4rem;
+    background:
+      radial-gradient(circle at 8% 12%, rgba(238,53,46,0.07) 0, transparent 45%),
+      radial-gradient(circle at 92% 88%, rgba(167,169,172,0.15) 0, transparent 45%),
+      var(--bg);
+    color: var(--text);
+    font-family: "Chalkboard SE", "Comic Sans MS", "Marker Felt", -apple-system, sans-serif;
+  }
+  h1 {
+    text-align: center;
+    font-size: 2.1rem;
+    margin: 0 0 0.1rem;
+    letter-spacing: 0.5px;
+    transform: rotate(-1.5deg);
+  }
+  h1 .choo {
+    display: inline-block;
+    animation: chug 1.4s ease-in-out infinite;
+  }
+  @keyframes chug {
+    0%, 100% { transform: translateY(0) rotate(0deg); }
+    50% { transform: translateY(-4px) rotate(-6deg); }
+  }
+  .subtitle {
+    text-align: center;
+    color: var(--muted);
+    font-size: 0.95rem;
+    margin-bottom: 0.5rem;
+    font-style: italic;
+  }
+  #updated {
+    text-align: center;
+    color: var(--muted);
+    font-size: 0.8rem;
+    margin-bottom: 2.5rem;
+  }
+  .live-dot {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #2ecc71;
+    margin-right: 5px;
+    animation: pulse 1.2s ease-in-out infinite;
+    vertical-align: middle;
+  }
+  @keyframes pulse {
+    0%, 100% { opacity: 1; transform: scale(1); }
+    50% { opacity: 0.35; transform: scale(0.7); }
+  }
+  .grid {
+    display: grid;
+    gap: 2rem 1.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    max-width: 980px;
+    margin: 0 auto;
+  }
+  .card {
+    position: relative;
+    background: var(--card-bg);
+    border: 3px solid var(--route-color, var(--ink));
+    border-radius: 16px;
+    padding: 1.4rem 1.4rem 1.2rem;
+    box-shadow: 6px 6px 0 var(--route-color, var(--ink));
+    transform: rotate(var(--tilt, 0deg));
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  .card:nth-child(3n+1) { --tilt: -1.2deg; }
+  .card:nth-child(3n+2) { --tilt: 0.9deg; }
+  .card:nth-child(3n+3) { --tilt: -0.5deg; }
+  .card:hover {
+    transform: rotate(0deg) translateY(-3px);
+    box-shadow: 9px 9px 0 var(--route-color, var(--ink));
+  }
+  .card::before {
+    content: "";
+    position: absolute;
+    top: -9px;
+    left: -9px;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: var(--bg);
+    border: 3px solid var(--route-color, var(--ink));
+  }
+  .card h2 {
+    margin: 0 0 0.9rem 0;
+    font-size: 1.15rem;
+    display: flex;
+    align-items: center;
+  }
+  .route-badge {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background: var(--route-color, #888);
+    color: white;
+    font-weight: 700;
+    font-size: 1.05rem;
+    margin-right: 0.6rem;
+    box-shadow: 0 2px 0 rgba(0,0,0,0.25) inset;
+    flex-shrink: 0;
+  }
+  .direction {
+    margin-top: 0.9rem;
+    padding-top: 0.7rem;
+    border-top: 2px dashed color-mix(in srgb, var(--route-color, var(--muted)) 40%, transparent);
+  }
+  .direction:first-of-type {
+    border-top: none;
+    padding-top: 0;
+  }
+  .direction-label {
+    color: var(--muted);
+    font-size: 0.82rem;
+    margin-bottom: 0.4rem;
+    text-transform: uppercase;
+    letter-spacing: 0.4px;
+    font-weight: 700;
+  }
+  .arrival-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+  }
+  .pill {
+    background: var(--bg);
+    border: 2px dashed var(--muted);
+    border-radius: 999px;
+    padding: 0.3rem 0.75rem;
+    font-size: 0.85rem;
+    font-variant-numeric: tabular-nums;
+    font-weight: 600;
+  }
+  .pill.soon {
+    color: white;
+    background: var(--route-color, var(--ink));
+    border-style: solid;
+    border-color: var(--route-color, var(--ink));
+    animation: wiggle 2s ease-in-out infinite;
+  }
+  @keyframes wiggle {
+    0%, 100% { transform: rotate(0deg); }
+    25% { transform: rotate(-3deg); }
+    75% { transform: rotate(3deg); }
+  }
+  .empty {
+    color: var(--muted);
+    font-size: 0.85rem;
+    font-style: italic;
+  }
+</style>
+</head>
+<body>
+  <h1><span class="choo">🚇</span> MTA Live Arrivals</h1>
+  <div class="subtitle">no maps, just vibes &amp; countdowns</div>
+  <div id="updated">loading…</div>
+  <div class="grid" id="grid"></div>
+
+  <script>
+    const POLL_MS = 15000;
+    const ROUTE_COLORS = {
+      "1": "#EE352E",
+      "2": "#EE352E",
+      "3": "#EE352E",
+      "L": "#A7A9AC",
+    };
+
+    function formatMinutes(m) {
+      if (m < 1) return "due 🐇";
+      return Math.round(m) + " min";
+    }
+
+    function render(data) {
+      const grid = document.getElementById("grid");
+      grid.innerHTML = "";
+      for (const station of data.stations) {
+        const color = ROUTE_COLORS[station.route] || "#888";
+        const card = document.createElement("div");
+        card.className = "card";
+        card.style.setProperty("--route-color", color);
+
+        const heading = document.createElement("h2");
+        heading.innerHTML = `<span class="route-badge">${station.route}</span>${station.name}`;
+        card.appendChild(heading);
+
+        for (const [dir, info] of Object.entries(station.directions)) {
+          const block = document.createElement("div");
+          block.className = "direction";
+
+          const label = document.createElement("div");
+          label.className = "direction-label";
+          label.textContent = info.label;
+          block.appendChild(label);
+
+          const list = document.createElement("div");
+          list.className = "arrival-list";
+          if (info.arrivals.length === 0) {
+            const empty = document.createElement("span");
+            empty.className = "empty";
+            empty.textContent = "no data — shrug emoji";
+            list.appendChild(empty);
+          } else {
+            info.arrivals.forEach((a, i) => {
+              const pill = document.createElement("span");
+              pill.className = "pill" + (i === 0 ? " soon" : "");
+              pill.textContent = formatMinutes(a.minutes_away);
+              list.appendChild(pill);
+            });
+          }
+          block.appendChild(list);
+          card.appendChild(block);
+        }
+
+        grid.appendChild(card);
+      }
+    }
+
+    async function poll() {
+      try {
+        const res = await fetch("/api/arrivals");
+        const data = await res.json();
+        render(data);
+        document.getElementById("updated").innerHTML =
+          '<span class="live-dot"></span>updated ' +
+          new Date(data.generated_at * 1000).toLocaleTimeString();
+      } catch (err) {
+        document.getElementById("updated").textContent = "error fetching data";
+        console.error(err);
+      }
+    }
+
+    poll();
+    setInterval(poll, POLL_MS);
+  </script>
+</body>
+</html>
