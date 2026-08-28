@@ -8,7 +8,19 @@
     "platforms": {
       "N": "L06N",
       "S": "L06S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "1 Ave @ 14 St",
+        "distance_m": 85,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/23994d9e-7e59-4808-8d47-405f779d19cf/image"
+      },
+      {
+        "name": "1 Ave @ E 14 St",
+        "distance_m": 89,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/db5f8b82-99b1-45f3-a520-7d1f91d0a49a/image"
+      }
+    ]
   },
   {
     "stop_id": "119",
@@ -19,7 +31,8 @@
     "platforms": {
       "N": "119N",
       "S": "119S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "624",
@@ -31,7 +44,19 @@
     "platforms": {
       "N": "624N",
       "S": "624S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Park Ave @ 106 St",
+        "distance_m": 263,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/ce81bdbd-967b-4ad0-ab40-c4628bb59560/image"
+      },
+      {
+        "name": "2 Ave @ E 102 St",
+        "distance_m": 392,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/927f8797-4a7e-4b6d-b11f-cee68a027dc9/image"
+      }
+    ]
   },
   {
     "stop_id": "A18",
@@ -44,7 +69,14 @@
     "platforms": {
       "N": "A18N",
       "S": "A18S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Central Park West @ 100 St",
+        "distance_m": 240,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/7c9ef8dd-7587-4e39-b486-13ef4c7e5721/image"
+      }
+    ]
   },
   {
     "stop_id": "706",
@@ -55,7 +87,8 @@
     "platforms": {
       "N": "706N",
       "S": "706S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "A63",
@@ -66,7 +99,8 @@
     "platforms": {
       "N": "A63N",
       "S": "A63S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "J14",
@@ -78,7 +112,8 @@
     "platforms": {
       "N": "J14N",
       "S": "J14S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "623",
@@ -90,7 +125,19 @@
     "platforms": {
       "N": "623N",
       "S": "623S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Lexington Ave @ E 110 Street",
+        "distance_m": 25,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/0cef143f-b3d8-4066-84ee-6114fa6e76e0/image"
+      },
+      {
+        "name": "3 Ave @ 114 St",
+        "distance_m": 339,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/d67e45e9-034f-4bd9-9bc3-12d07a12af48/image"
+      }
+    ]
   },
   {
     "stop_id": "227",
@@ -102,7 +149,14 @@
     "platforms": {
       "N": "227N",
       "S": "227S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Malcolm X Blvd/Lenox Ave @ 110 St/CPN",
+        "distance_m": 105,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/5e0c441b-7587-494c-aade-6fea9efc1c73/image"
+      }
+    ]
   },
   {
     "stop_id": "705",
@@ -113,7 +167,8 @@
     "platforms": {
       "N": "705N",
       "S": "705S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "A64",
@@ -124,7 +179,8 @@
     "platforms": {
       "N": "A64N",
       "S": "A64S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "J13",
@@ -135,7 +191,8 @@
     "platforms": {
       "N": "J13N",
       "S": "J13S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "226",
@@ -147,7 +204,14 @@
     "platforms": {
       "N": "226N",
       "S": "226S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Malcolm X Blvd/Lenox Ave @ 110 St/CPN",
+        "distance_m": 489,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/5e0c441b-7587-494c-aade-6fea9efc1c73/image"
+      }
+    ]
   },
   {
     "stop_id": "622",
@@ -159,7 +223,19 @@
     "platforms": {
       "N": "622N",
       "S": "622S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Park Ave @ E 116 Street",
+        "distance_m": 132,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/175cc1f1-0543-41c9-85fb-464ec29687de/image"
+      },
+      {
+        "name": "3 Ave @ 114 St",
+        "distance_m": 236,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/d67e45e9-034f-4bd9-9bc3-12d07a12af48/image"
+      }
+    ]
   },
   {
     "stop_id": "A16",
@@ -172,7 +248,8 @@
     "platforms": {
       "N": "A16N",
       "S": "A16S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "117",
@@ -183,7 +260,8 @@
     "platforms": {
       "N": "117N",
       "S": "117S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "J12",
@@ -195,7 +273,8 @@
     "platforms": {
       "N": "J12N",
       "S": "J12S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "116",
@@ -206,7 +285,19 @@
     "platforms": {
       "N": "116N",
       "S": "116S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Broadway @ 125 St",
+        "distance_m": 22,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/43bb4857-e86e-4775-916e-6b26cedaf554/image"
+      },
+      {
+        "name": "Henry Hudson Pkwy @ 125 St",
+        "distance_m": 403,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/ca545979-d0c1-4735-88d6-61b6311bb6bc/image"
+      }
+    ]
   },
   {
     "stop_id": "225",
@@ -218,7 +309,19 @@
     "platforms": {
       "N": "225N",
       "S": "225S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Lenox Ave @ 125 St",
+        "distance_m": 25,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/156b0613-239a-4e77-aa0e-0a4becfc0b05/image"
+      },
+      {
+        "name": "7 AVE / ADAM CLAYTON POWELL BLVD@ 125 St",
+        "distance_m": 272,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/9bb33444-d2ec-47bd-952a-174f87013736/image"
+      }
+    ]
   },
   {
     "stop_id": "621",
@@ -231,7 +334,19 @@
     "platforms": {
       "N": "621N",
       "S": "621S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Park Ave @ E 125 St",
+        "distance_m": 190,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/a6bd09c7-9195-4e0b-ac0f-78114a7d63a1/image"
+      },
+      {
+        "name": "Lexington Ave @ E 128 Street",
+        "distance_m": 278,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/9c6dae83-0258-489e-a9cd-83396cf8dad7/image"
+      }
+    ]
   },
   {
     "stop_id": "A15",
@@ -245,7 +360,19 @@
     "platforms": {
       "N": "A15N",
       "S": "A15S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "St Nicholas Ave @ 125 St",
+        "distance_m": 43,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/98b37dd5-bd64-4ace-add0-37f5135df600/image"
+      },
+      {
+        "name": "7 AVE / ADAM CLAYTON POWELL BLVD@ 125 St",
+        "distance_m": 416,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/9bb33444-d2ec-47bd-952a-174f87013736/image"
+      }
+    ]
   },
   {
     "stop_id": "224",
@@ -257,7 +384,14 @@
     "platforms": {
       "N": "224N",
       "S": "224S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Lenox Ave @ 135 St",
+        "distance_m": 16,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/f6799b6f-b7f9-451b-8c7a-eacc9e8c36a8/image"
+      }
+    ]
   },
   {
     "stop_id": "A14",
@@ -270,7 +404,8 @@
     "platforms": {
       "N": "A14N",
       "S": "A14S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "115",
@@ -281,7 +416,14 @@
     "platforms": {
       "N": "115N",
       "S": "115S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Henry Hudson @ 135 St",
+        "distance_m": 301,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/0ad90cca-a6b0-4968-abdd-ca81ae497848/image"
+      }
+    ]
   },
   {
     "stop_id": "416",
@@ -293,7 +435,19 @@
     "platforms": {
       "N": "416N",
       "S": "416S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "E 138 st @ Major Deegan",
+        "distance_m": 107,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/52ecb55e-c8aa-4784-85e1-fd7d38faf7e4/image"
+      },
+      {
+        "name": "C1-MDE-03-SB_at_E.138th_St-Ex3",
+        "distance_m": 178,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/7c996b88-8ee6-4b0d-99c8-5764cf68f3bc/image"
+      }
+    ]
   },
   {
     "stop_id": "132",
@@ -306,7 +460,14 @@
     "platforms": {
       "N": "132N",
       "S": "132S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "8 Ave @ 14 St",
+        "distance_m": 290,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/3dc1adcd-7a47-45c3-a667-9d8fae9fdcd0/image"
+      }
+    ]
   },
   {
     "stop_id": "A31",
@@ -319,7 +480,19 @@
     "platforms": {
       "N": "A31N",
       "S": "A31S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "8 Ave @ 14 St",
+        "distance_m": 145,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/3dc1adcd-7a47-45c3-a667-9d8fae9fdcd0/image"
+      },
+      {
+        "name": "9 AVE @ 14 St",
+        "distance_m": 304,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/8437bc26-9eb8-4915-93f7-f8ea4170e739/image"
+      }
+    ]
   },
   {
     "stop_id": "D19",
@@ -331,7 +504,8 @@
     "platforms": {
       "N": "D19N",
       "S": "D19S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "635",
@@ -344,7 +518,19 @@
     "platforms": {
       "N": "635N",
       "S": "635S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Union Sq @ 14 St",
+        "distance_m": 79,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/d47d2f63-cdc1-4f28-bc4c-e64ac07e4f1d/image"
+      },
+      {
+        "name": "E 14 St @ Irving Pl/Lexington Av",
+        "distance_m": 124,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/f9cb9d4c-10ad-42e4-8997-dbc9e12bd55a/image"
+      }
+    ]
   },
   {
     "stop_id": "L03",
@@ -355,7 +541,19 @@
     "platforms": {
       "N": "L03N",
       "S": "L03S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Union Sq @ 14 St",
+        "distance_m": 13,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/d47d2f63-cdc1-4f28-bc4c-e64ac07e4f1d/image"
+      },
+      {
+        "name": "E 14 St @ Irving Pl/Lexington Av",
+        "distance_m": 186,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/f9cb9d4c-10ad-42e4-8997-dbc9e12bd55a/image"
+      }
+    ]
   },
   {
     "stop_id": "R20",
@@ -369,7 +567,19 @@
     "platforms": {
       "N": "R20N",
       "S": "R20S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Union Sq @ 14 St",
+        "distance_m": 104,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/d47d2f63-cdc1-4f28-bc4c-e64ac07e4f1d/image"
+      },
+      {
+        "name": "E 14 St @ Irving Pl/Lexington Av",
+        "distance_m": 246,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/f9cb9d4c-10ad-42e4-8997-dbc9e12bd55a/image"
+      }
+    ]
   },
   {
     "stop_id": "114",
@@ -380,7 +590,14 @@
     "platforms": {
       "N": "114N",
       "S": "114S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Broadway @ 145 St",
+        "distance_m": 13,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/7f865d20-e4f4-4f7c-88db-c0edf88a9501/image"
+      }
+    ]
   },
   {
     "stop_id": "302",
@@ -391,7 +608,19 @@
     "platforms": {
       "N": "302N",
       "S": "302S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Malcom X Blvd @ 145 St",
+        "distance_m": 4,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/efa9a3d5-e5fa-440e-8f6e-68436b8c397b/image"
+      },
+      {
+        "name": "FDR @ 145 St",
+        "distance_m": 194,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/6c2996f1-3d8f-44a9-8ce0-a827ae8d3680/image"
+      }
+    ]
   },
   {
     "stop_id": "A12",
@@ -403,7 +632,14 @@
     "platforms": {
       "N": "A12N",
       "S": "A12S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "St Nicholas Ave @ 145 St",
+        "distance_m": 96,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/09b1235e-d2d1-4451-83a5-5a1c3ec280aa/image"
+      }
+    ]
   },
   {
     "stop_id": "D13",
@@ -415,7 +651,14 @@
     "platforms": {
       "N": "D13N",
       "S": "D13S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "St Nicholas Ave @ 145 St",
+        "distance_m": 96,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/09b1235e-d2d1-4451-83a5-5a1c3ec280aa/image"
+      }
+    ]
   },
   {
     "stop_id": "222",
@@ -427,7 +670,19 @@
     "platforms": {
       "N": "222N",
       "S": "222S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Grand Concourse @ E 149 St",
+        "distance_m": 54,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/62380b5a-8960-4c2b-9125-d7f088605a7f/image"
+      },
+      {
+        "name": "C1-MDE-04-SB_at_Grand_Concrse-Ex3",
+        "distance_m": 465,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/bed364f9-5249-4285-9b03-70b91ce75baf/image"
+      }
+    ]
   },
   {
     "stop_id": "415",
@@ -438,7 +693,19 @@
     "platforms": {
       "N": "415N",
       "S": "415S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Grand Concourse @ E 149 St",
+        "distance_m": 22,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/62380b5a-8960-4c2b-9125-d7f088605a7f/image"
+      },
+      {
+        "name": "C1-MDE-04-SB_at_Grand_Concrse-Ex3",
+        "distance_m": 422,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/bed364f9-5249-4285-9b03-70b91ce75baf/image"
+      }
+    ]
   },
   {
     "stop_id": "F25",
@@ -450,7 +717,14 @@
     "platforms": {
       "N": "F25N",
       "S": "F25S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Prospect Expwy @ Prospect Park W @ 19 St",
+        "distance_m": 471,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/3c079db6-117c-4e79-94ed-5178c1517091/image"
+      }
+    ]
   },
   {
     "stop_id": "A11",
@@ -462,7 +736,8 @@
     "platforms": {
       "N": "A11N",
       "S": "A11S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "D12",
@@ -474,7 +749,14 @@
     "platforms": {
       "N": "D12N",
       "S": "D12S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "FDR Dr @ 155 Street",
+        "distance_m": 339,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/c2b6f1ab-8baa-4384-9dc9-5bd2e374701e/image"
+      }
+    ]
   },
   {
     "stop_id": "113",
@@ -485,7 +767,14 @@
     "platforms": {
       "N": "113N",
       "S": "113S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Henry Hudson @ 158 St",
+        "distance_m": 382,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/5531396b-856d-429b-8bde-a845ef87aead/image"
+      }
+    ]
   },
   {
     "stop_id": "414",
@@ -496,7 +785,19 @@
     "platforms": {
       "N": "414N",
       "S": "414S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Grand Concourse @ 161 St",
+        "distance_m": 300,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/a95f7916-24ee-4d7e-bc71-6f9f1e009f23/image"
+      },
+      {
+        "name": "C1-MDE-06-NB_at_Macombs_Dam_Br-Ex5",
+        "distance_m": 433,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/09cc9eed-0732-4199-a6ca-b3d0bbbad860/image"
+      }
+    ]
   },
   {
     "stop_id": "D11",
@@ -508,7 +809,19 @@
     "platforms": {
       "N": "D11N",
       "S": "D11S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Grand Concourse @ 161 St",
+        "distance_m": 282,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/a95f7916-24ee-4d7e-bc71-6f9f1e009f23/image"
+      },
+      {
+        "name": "C1-MDE-06-NB_at_Macombs_Dam_Br-Ex5",
+        "distance_m": 449,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/09cc9eed-0732-4199-a6ca-b3d0bbbad860/image"
+      }
+    ]
   },
   {
     "stop_id": "A10",
@@ -520,7 +833,14 @@
     "platforms": {
       "N": "A10N",
       "S": "A10S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Harlem Rvr Dr (FDR) @ 166 St",
+        "distance_m": 422,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/e5f14a79-fe4c-450e-b81e-21d8c9e1ea9b/image"
+      }
+    ]
   },
   {
     "stop_id": "413",
@@ -531,7 +851,8 @@
     "platforms": {
       "N": "413N",
       "S": "413S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "D10",
@@ -543,7 +864,8 @@
     "platforms": {
       "N": "D10N",
       "S": "D10S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "A09",
@@ -555,7 +877,14 @@
     "platforms": {
       "N": "A09N",
       "S": "A09S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Broadway @ 169 Street",
+        "distance_m": 109,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/d7910856-9d2c-4142-b8cc-cbd6c4b3acac/image"
+      }
+    ]
   },
   {
     "stop_id": "112",
@@ -566,7 +895,19 @@
     "platforms": {
       "N": "112N",
       "S": "112S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Broadway @ 169 Street",
+        "distance_m": 142,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/d7910856-9d2c-4142-b8cc-cbd6c4b3acac/image"
+      },
+      {
+        "name": "Henry Hudson pkwy @ Exit 14 ,165 St/ GWB  ramp",
+        "distance_m": 463,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/ffae5a99-c403-41aa-9985-0633aee4aeff/image"
+      }
+    ]
   },
   {
     "stop_id": "F02",
@@ -578,7 +919,14 @@
     "platforms": {
       "N": "F02N",
       "S": "F02S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Jamaica Ave @ 168 St",
+        "distance_m": 465,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/52399045-4691-4258-8f82-12000f5719a8/image"
+      }
+    ]
   },
   {
     "stop_id": "412",
@@ -589,7 +937,8 @@
     "platforms": {
       "N": "412N",
       "S": "412S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "D09",
@@ -601,7 +950,8 @@
     "platforms": {
       "N": "D09N",
       "S": "D09S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "215",
@@ -613,7 +963,19 @@
     "platforms": {
       "N": "215N",
       "S": "215S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Crotona Pkwy @ Cross Bronx Expwy",
+        "distance_m": 373,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/4053642d-dd92-4045-ac55-069110659563/image"
+      },
+      {
+        "name": "Southern Bl. @ Cross Bronx Expwy",
+        "distance_m": 382,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/7305c9dc-a6c3-4eab-83df-fd42296efbea/image"
+      }
+    ]
   },
   {
     "stop_id": "D08",
@@ -625,7 +987,19 @@
     "platforms": {
       "N": "D08N",
       "S": "D08S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "CBX @ Morris Ave & 174th ST",
+        "distance_m": 143,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/572b1058-c33a-4de2-8f35-0f3e9e92bc33/image"
+      },
+      {
+        "name": "C1-CBE-05_S_SB_at_Walton_Ave-Ex2A",
+        "distance_m": 167,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/d23ec5fd-f956-4283-975a-623514b001a3/image"
+      }
+    ]
   },
   {
     "stop_id": "A07",
@@ -636,7 +1010,19 @@
     "platforms": {
       "N": "A07N",
       "S": "A07S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Ft Washington @ 178 St",
+        "distance_m": 147,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/d8e022cc-c262-45ac-a939-8e86e20853fd/image"
+      },
+      {
+        "name": "Ft Washington @ 179 St",
+        "distance_m": 227,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/ad3df063-d5d6-458c-84e7-1242060649cf/image"
+      }
+    ]
   },
   {
     "stop_id": "410",
@@ -647,7 +1033,19 @@
     "platforms": {
       "N": "410N",
       "S": "410S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "C1-CBE-05_S_SB_at_Walton_Ave-Ex2A",
+        "distance_m": 349,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/d23ec5fd-f956-4283-975a-623514b001a3/image"
+      },
+      {
+        "name": "CBX @ Morris Ave & 174th ST",
+        "distance_m": 462,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/572b1058-c33a-4de2-8f35-0f3e9e92bc33/image"
+      }
+    ]
   },
   {
     "stop_id": "B19",
@@ -658,7 +1056,8 @@
     "platforms": {
       "N": "B19N",
       "S": "B19S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "F30",
@@ -669,7 +1068,8 @@
     "platforms": {
       "N": "F30N",
       "S": "F30S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "N05",
@@ -681,7 +1081,8 @@
     "platforms": {
       "N": "N05N",
       "S": "N05S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "131",
@@ -693,7 +1094,19 @@
     "platforms": {
       "N": "131N",
       "S": "131S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "7 Ave @ 23St",
+        "distance_m": 389,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/fcfbaa3d-13e5-4687-9688-ae1eab37c723/image"
+      },
+      {
+        "name": "8 Ave @ 14 St",
+        "distance_m": 417,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/3dc1adcd-7a47-45c3-a667-9d8fae9fdcd0/image"
+      }
+    ]
   },
   {
     "stop_id": "111",
@@ -704,7 +1117,19 @@
     "platforms": {
       "N": "111N",
       "S": "111S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "St Nicholas Ave @ 181 St",
+        "distance_m": 24,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/3ad126cc-3f99-4626-a229-b9ba4d3f4b63/image"
+      },
+      {
+        "name": "Audobon Ave @ W 181 ST",
+        "distance_m": 135,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/1ccb8d7c-43d4-450e-b40c-79527766db75/image"
+      }
+    ]
   },
   {
     "stop_id": "A06",
@@ -715,7 +1140,19 @@
     "platforms": {
       "N": "A06N",
       "S": "A06S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Ft Washington @ 179 St",
+        "distance_m": 273,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/ad3df063-d5d6-458c-84e7-1242060649cf/image"
+      },
+      {
+        "name": "Riverside DR. @ Pedestrian Crossing NOF 181 St",
+        "distance_m": 273,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/db028e65-b4b4-4f83-a427-6be6cb3f2ace/image"
+      }
+    ]
   },
   {
     "stop_id": "D06",
@@ -727,7 +1164,8 @@
     "platforms": {
       "N": "D06N",
       "S": "D06S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "408",
@@ -738,7 +1176,8 @@
     "platforms": {
       "N": "408N",
       "S": "408S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "A05",
@@ -749,7 +1188,8 @@
     "platforms": {
       "N": "A05N",
       "S": "A05S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "110",
@@ -760,7 +1200,8 @@
     "platforms": {
       "N": "110N",
       "S": "110S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "F14",
@@ -771,7 +1212,19 @@
     "platforms": {
       "N": "F14N",
       "S": "F14S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Houston St @ Christies St",
+        "distance_m": 102,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/444aa32f-8102-4ca6-a7f8-5c9fd8fd5571/image"
+      },
+      {
+        "name": "1 Ave @ E. Houston St",
+        "distance_m": 120,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/b5cf34ce-697e-42a1-b22f-8eb2c1f3e79e/image"
+      }
+    ]
   },
   {
     "stop_id": "B20",
@@ -782,7 +1235,8 @@
     "platforms": {
       "N": "B20N",
       "S": "B20S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "N06",
@@ -794,7 +1248,8 @@
     "platforms": {
       "N": "N06N",
       "S": "N06S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "108",
@@ -805,7 +1260,14 @@
     "platforms": {
       "N": "108N",
       "S": "108S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "207 ST @ 9 Ave",
+        "distance_m": 181,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/9cdf1f47-307d-48e8-8627-e77e189b5fed/image"
+      }
+    ]
   },
   {
     "stop_id": "G24",
@@ -816,7 +1278,19 @@
     "platforms": {
       "N": "G24N",
       "S": "G24S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Jackson Ave @ 21 St",
+        "distance_m": 123,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/8a60eb4e-4069-4c0f-9bca-b8cc52915ffb/image"
+      },
+      {
+        "name": "Jackson Ave @ 11 ST",
+        "distance_m": 171,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/76c47885-cc54-4e0d-989c-01cf1256dd1a/image"
+      }
+    ]
   },
   {
     "stop_id": "B04",
@@ -828,7 +1302,19 @@
     "platforms": {
       "N": "B04N",
       "S": "B04S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Queens Plaza North @ East 21 st",
+        "distance_m": 196,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/b9c20141-52ca-43a1-a7df-c2577ca384b6/image"
+      },
+      {
+        "name": "QBB LL CM @ 11 St",
+        "distance_m": 323,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/282429c3-3f55-4fa6-bca2-b128262699d4/image"
+      }
+    ]
   },
   {
     "stop_id": "107",
@@ -839,7 +1325,8 @@
     "platforms": {
       "N": "107N",
       "S": "107S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "207",
@@ -851,7 +1338,8 @@
     "platforms": {
       "N": "207N",
       "S": "207S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "206",
@@ -863,7 +1351,8 @@
     "platforms": {
       "N": "206N",
       "S": "206S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "130",
@@ -875,7 +1364,19 @@
     "platforms": {
       "N": "130N",
       "S": "130S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "7 Ave @ 23St",
+        "distance_m": 3,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/fcfbaa3d-13e5-4687-9688-ae1eab37c723/image"
+      },
+      {
+        "name": "6 Ave @ 23 St",
+        "distance_m": 274,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/fcc24aa5-4da0-48f2-aa43-e70e4677517c/image"
+      }
+    ]
   },
   {
     "stop_id": "A30",
@@ -888,7 +1389,19 @@
     "platforms": {
       "N": "A30N",
       "S": "A30S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "7 Ave @ 23St",
+        "distance_m": 284,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/fcfbaa3d-13e5-4687-9688-ae1eab37c723/image"
+      },
+      {
+        "name": "9 Ave @ 23 St",
+        "distance_m": 288,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/d1c219c0-afdd-4fa4-a72c-cc1b1318b99d/image"
+      }
+    ]
   },
   {
     "stop_id": "D18",
@@ -900,7 +1413,19 @@
     "platforms": {
       "N": "D18N",
       "S": "D18S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "6 Ave @ 23 St",
+        "distance_m": 3,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/fcc24aa5-4da0-48f2-aa43-e70e4677517c/image"
+      },
+      {
+        "name": "7 Ave @ 23St",
+        "distance_m": 275,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/fcfbaa3d-13e5-4687-9688-ae1eab37c723/image"
+      }
+    ]
   },
   {
     "stop_id": "R19",
@@ -914,7 +1439,19 @@
     "platforms": {
       "N": "R19N",
       "S": "R19S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "5 Ave @ 23 St",
+        "distance_m": 36,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/3486cafa-aab2-418a-baa4-89dcc438e8c9/image"
+      },
+      {
+        "name": "Park Ave @ 23 St",
+        "distance_m": 280,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/ea36992f-a3bf-4cce-8942-05ff04e2ae5f/image"
+      }
+    ]
   },
   {
     "stop_id": "634",
@@ -926,7 +1463,19 @@
     "platforms": {
       "N": "634N",
       "S": "634S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Park Ave @ 23 St",
+        "distance_m": 41,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/ea36992f-a3bf-4cce-8942-05ff04e2ae5f/image"
+      },
+      {
+        "name": "Lexington Ave @ 23 St",
+        "distance_m": 162,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/bff66919-97a3-47ca-b16d-ca07ff93a546/image"
+      }
+    ]
   },
   {
     "stop_id": "104",
@@ -937,7 +1486,14 @@
     "platforms": {
       "N": "104N",
       "S": "104S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Major Deegan Expwy @ 230 St",
+        "distance_m": 260,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/041f8f94-fcf8-4860-9a5d-c81fb5c97501/image"
+      }
+    ]
   },
   {
     "stop_id": "205",
@@ -949,7 +1505,14 @@
     "platforms": {
       "N": "205N",
       "S": "205S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Bronx River Pkwy @ 233 St",
+        "distance_m": 401,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/dfac53ae-0460-409d-8514-6db67de9aff3/image"
+      }
+    ]
   },
   {
     "stop_id": "103",
@@ -960,7 +1523,14 @@
     "platforms": {
       "N": "103N",
       "S": "103S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Major Deegan Expy @Van Cortland Pk S",
+        "distance_m": 373,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/b6cd1640-fdc3-4525-bbb4-f148699876df/image"
+      }
+    ]
   },
   {
     "stop_id": "B22",
@@ -971,7 +1541,14 @@
     "platforms": {
       "N": "B22N",
       "S": "B22S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Stillwell Ave @ 86 St",
+        "distance_m": 174,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/f75d3433-3ee8-4406-b747-ca47098debd9/image"
+      }
+    ]
   },
   {
     "stop_id": "R35",
@@ -985,7 +1562,14 @@
     "platforms": {
       "N": "R35N",
       "S": "R35S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "C2-GE-12_W_WB_at_26th St-Ex23",
+        "distance_m": 244,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/a74c9c59-b6e1-4f7d-b260-7f54954e6e47/image"
+      }
+    ]
   },
   {
     "stop_id": "129",
@@ -997,7 +1581,19 @@
     "platforms": {
       "N": "129N",
       "S": "129S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "7 Ave @ 32 St",
+        "distance_m": 300,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/1e60ade7-c760-48cf-acd9-d9d6cbfa9420/image"
+      },
+      {
+        "name": "6 Ave @ 30 St",
+        "distance_m": 316,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/0dc7c2b4-614d-46a3-9610-3ba09f3f1284/image"
+      }
+    ]
   },
   {
     "stop_id": "633",
@@ -1009,7 +1605,19 @@
     "platforms": {
       "N": "633N",
       "S": "633S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Park Ave @ 23 St",
+        "distance_m": 366,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/ea36992f-a3bf-4cce-8942-05ff04e2ae5f/image"
+      },
+      {
+        "name": "Lexington Ave @ 23 St",
+        "distance_m": 398,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/bff66919-97a3-47ca-b16d-ca07ff93a546/image"
+      }
+    ]
   },
   {
     "stop_id": "R18",
@@ -1023,7 +1631,19 @@
     "platforms": {
       "N": "R18N",
       "S": "R18S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "6 Ave @ 30 St",
+        "distance_m": 214,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/0dc7c2b4-614d-46a3-9610-3ba09f3f1284/image"
+      },
+      {
+        "name": "Broadway @ 6 Ave / 33 St",
+        "distance_m": 439,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/8ee72946-49e0-4f49-991d-4f52b1206ed7/image"
+      }
+    ]
   },
   {
     "stop_id": "L05",
@@ -1034,7 +1654,19 @@
     "platforms": {
       "N": "L05N",
       "S": "L05S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "3 Ave @ E 14 St",
+        "distance_m": 104,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/ebac5b6e-bd3a-4046-926b-7446edab9bee/image"
+      },
+      {
+        "name": "3 Ave @ 14 St",
+        "distance_m": 108,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/63bf5db0-582d-4482-ad51-52338c7f9906/image"
+      }
+    ]
   },
   {
     "stop_id": "619",
@@ -1045,7 +1677,19 @@
     "platforms": {
       "N": "619N",
       "S": "619S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Exterior St @ 3 Ave",
+        "distance_m": 314,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/c145d543-b5f5-4dec-9bb8-7866eafdf054/image"
+      },
+      {
+        "name": "Bruckner Blvd @ Lincoln Ave",
+        "distance_m": 421,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/82b0f566-cab5-4366-bc3a-67f82cc4fec7/image"
+      }
+    ]
   },
   {
     "stop_id": "221",
@@ -1057,7 +1701,8 @@
     "platforms": {
       "N": "221N",
       "S": "221S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "R04",
@@ -1069,7 +1714,8 @@
     "platforms": {
       "N": "R04N",
       "S": "R04S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "632",
@@ -1081,7 +1727,19 @@
     "platforms": {
       "N": "632N",
       "S": "632S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Park Ave @ 34 St",
+        "distance_m": 127,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/17b6c7dd-2aa7-442a-8832-d39051a47d1b/image"
+      },
+      {
+        "name": "Lexington Ave @ 34 St",
+        "distance_m": 201,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/0b4bd3d3-1741-49b3-87cc-d0960fa5f424/image"
+      }
+    ]
   },
   {
     "stop_id": "716",
@@ -1092,7 +1750,19 @@
     "platforms": {
       "N": "716N",
       "S": "716S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Queens Blvd @ 36 St",
+        "distance_m": 180,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/cc6c54fa-43fb-4484-a598-20feea2adb89/image"
+      },
+      {
+        "name": "Queens Blvd @ Skillman",
+        "distance_m": 332,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/abda729c-9f02-4ecf-b164-228b1528cfac/image"
+      }
+    ]
   },
   {
     "stop_id": "D17",
@@ -1106,7 +1776,19 @@
     "platforms": {
       "N": "D17N",
       "S": "D17S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "6 Ave @ 34 St",
+        "distance_m": 12,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/f06979b2-3497-4330-9882-a06c8a442b7c/image"
+      },
+      {
+        "name": "Broadway @ 6 Ave / 33 St",
+        "distance_m": 40,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/8ee72946-49e0-4f49-991d-4f52b1206ed7/image"
+      }
+    ]
   },
   {
     "stop_id": "R17",
@@ -1120,7 +1802,19 @@
     "platforms": {
       "N": "R17N",
       "S": "R17S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Broadway @ 6 Ave / 33 St",
+        "distance_m": 20,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/8ee72946-49e0-4f49-991d-4f52b1206ed7/image"
+      },
+      {
+        "name": "6 Ave @ 34 St",
+        "distance_m": 32,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/f06979b2-3497-4330-9882-a06c8a442b7c/image"
+      }
+    ]
   },
   {
     "stop_id": "726",
@@ -1131,7 +1825,19 @@
     "platforms": {
       "N": "726N",
       "S": "726S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "11 Ave @ 34 ST",
+        "distance_m": 12,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/aacbd8a1-56b6-4757-b0b0-1bea396469c6/image"
+      },
+      {
+        "name": "12 Ave @ 34 St",
+        "distance_m": 273,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/3809d95f-f99e-4eca-9121-9c7db73f8cbd/image"
+      }
+    ]
   },
   {
     "stop_id": "128",
@@ -1144,7 +1850,19 @@
     "platforms": {
       "N": "128N",
       "S": "128S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "7 Ave @ 34 St",
+        "distance_m": 80,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/ee1b1d85-e8ce-485f-a539-12962933eb9f/image"
+      },
+      {
+        "name": "7 Ave @ 32 St",
+        "distance_m": 103,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/1e60ade7-c760-48cf-acd9-d9d6cbfa9420/image"
+      }
+    ]
   },
   {
     "stop_id": "A28",
@@ -1157,7 +1875,19 @@
     "platforms": {
       "N": "A28N",
       "S": "A28S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "8 Ave @ 34 St",
+        "distance_m": 11,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/f2964d50-042c-4021-8b52-992c08c6ff6f/image"
+      },
+      {
+        "name": "8th Ave @ 33rd St",
+        "distance_m": 97,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/6a85384f-d82e-4bff-b5f1-15c22cca70e6/image"
+      }
+    ]
   },
   {
     "stop_id": "R06",
@@ -1169,7 +1899,8 @@
     "platforms": {
       "N": "R06N",
       "S": "R06S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "G20",
@@ -1183,7 +1914,19 @@
     "platforms": {
       "N": "G20N",
       "S": "G20S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Northern Blvd @ Honeywell Bridge",
+        "distance_m": 266,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/9b4553f1-6aa3-46eb-8905-ecbfecb83ce3/image"
+      },
+      {
+        "name": "Northern Blvd @ Steinway",
+        "distance_m": 379,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/6bfee8ce-9d91-4ffb-9586-9b3a0675578d/image"
+      }
+    ]
   },
   {
     "stop_id": "R36",
@@ -1197,7 +1940,19 @@
     "platforms": {
       "N": "R36N",
       "S": "R36S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "C2-GE-11_E_EB_at_37th_St_Ex23",
+        "distance_m": 249,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/c4fa59c7-32b9-410e-b0f1-c10ce13e37ac/image"
+      },
+      {
+        "name": "4 Ave @ 38 st - 179.90",
+        "distance_m": 267,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/5cc1f365-af4a-48be-8819-8f12e18725a3/image"
+      }
+    ]
   },
   {
     "stop_id": "R08",
@@ -1209,7 +1964,19 @@
     "platforms": {
       "N": "R08N",
       "S": "R08S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Northern Blvd @ Honeywell Bridge",
+        "distance_m": 119,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/9b4553f1-6aa3-46eb-8905-ecbfecb83ce3/image"
+      },
+      {
+        "name": "Crescent st @ 39 Ave",
+        "distance_m": 395,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/97ace0b4-fcd2-4c3a-8c05-dbf73639ead3/image"
+      }
+    ]
   },
   {
     "stop_id": "F23",
@@ -1221,7 +1988,8 @@
     "platforms": {
       "N": "F23N",
       "S": "F23S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "R33",
@@ -1235,7 +2003,8 @@
     "platforms": {
       "N": "R33N",
       "S": "R33S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "715",
@@ -1246,7 +2015,19 @@
     "platforms": {
       "N": "715N",
       "S": "715S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Queens Blvd @ 39 ST",
+        "distance_m": 183,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/c361e170-2da7-4e96-9546-296e766b37ad/image"
+      },
+      {
+        "name": "Queens Blvd @ 39 St - East",
+        "distance_m": 186,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/8e07d72b-94cd-44c4-b92a-48decda031d2/image"
+      }
+    ]
   },
   {
     "stop_id": "D16",
@@ -1260,7 +2041,19 @@
     "platforms": {
       "N": "D16N",
       "S": "D16S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "6 Ave @ 42 St",
+        "distance_m": 79,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/c34ca47e-e375-4b9f-a8d7-f9737566b783/image"
+      },
+      {
+        "name": "6 Ave @ 39 St",
+        "distance_m": 161,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/34674be5-4791-47f1-b0b2-2db0ff619732/image"
+      }
+    ]
   },
   {
     "stop_id": "A27",
@@ -1273,7 +2066,19 @@
     "platforms": {
       "N": "A27N",
       "S": "A27S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "8 Ave @ 42 St",
+        "distance_m": 8,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/83bf2591-579d-415b-a0d4-fe39868b46d1/image"
+      },
+      {
+        "name": "8 AVE @ 44 St",
+        "distance_m": 155,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/5c505897-b475-4359-897d-b064bdb9feef/image"
+      }
+    ]
   },
   {
     "stop_id": "R39",
@@ -1286,7 +2091,14 @@
     "platforms": {
       "N": "R39N",
       "S": "R39S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Gowanus Expy @ 49 St",
+        "distance_m": 345,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/2b4ed602-312d-4f31-a531-153ac33b4d87/image"
+      }
+    ]
   },
   {
     "stop_id": "G18",
@@ -1300,7 +2112,19 @@
     "platforms": {
       "N": "G18N",
       "S": "G18S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Northern Blvd @ 48 St",
+        "distance_m": 311,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/10a4be9a-8a1e-4b0c-84c3-b51c887b5e27/image"
+      },
+      {
+        "name": "Northern Blvd @ 51 St",
+        "distance_m": 454,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/36d14f1c-b6fb-474c-9703-ecfd101ead72/image"
+      }
+    ]
   },
   {
     "stop_id": "714",
@@ -1311,7 +2135,19 @@
     "platforms": {
       "N": "714N",
       "S": "714S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Queens Blvd @ 48 St - 52.130",
+        "distance_m": 133,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/49a571bf-f15e-4726-9937-aadde6c837ba/image"
+      },
+      {
+        "name": "Queens Blvd E/B @ 43 St",
+        "distance_m": 259,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/60982889-171e-4208-ae1d-8f179f91231e/image"
+      }
+    ]
   },
   {
     "stop_id": "D15",
@@ -1325,7 +2161,19 @@
     "platforms": {
       "N": "D15N",
       "S": "D15S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "6 Ave @ 49 St",
+        "distance_m": 78,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/1dddf912-4718-4b2a-94dd-1f793a9ed22c/image"
+      },
+      {
+        "name": "6 AVE @ 50 St",
+        "distance_m": 158,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/4f3f56e3-f68e-4b60-a4ba-153ecb9094f7/image"
+      }
+    ]
   },
   {
     "stop_id": "R15",
@@ -1339,7 +2187,19 @@
     "platforms": {
       "N": "R15N",
       "S": "R15S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "7 Ave @ 49 St",
+        "distance_m": 73,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/fc7db899-7a79-41f3-b9b1-b23ce64c5a5e/image"
+      },
+      {
+        "name": "Broadway @ 46 St- Quad North",
+        "distance_m": 167,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/f3d82b25-6b10-44c7-ae89-30df075a7ac8/image"
+      }
+    ]
   },
   {
     "stop_id": "724",
@@ -1350,7 +2210,19 @@
     "platforms": {
       "N": "724N",
       "S": "724S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "5 Ave @ 42 St",
+        "distance_m": 97,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/f4e822f7-d2a2-4146-851c-04b2fa6d5265/image"
+      },
+      {
+        "name": "6 Ave @ 42 St",
+        "distance_m": 215,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/c34ca47e-e375-4b9f-a8d7-f9737566b783/image"
+      }
+    ]
   },
   {
     "stop_id": "F12",
@@ -1362,7 +2234,19 @@
     "platforms": {
       "N": "F12N",
       "S": "F12S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "5 AVE @ 50 St",
+        "distance_m": 244,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/482e6d35-2a67-4bbf-b36f-fdf7e031d607/image"
+      },
+      {
+        "name": "Rockefeller Plaza @ W 51 St",
+        "distance_m": 245,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/bff9cee2-1513-4af3-9838-ea7a35552049/image"
+      }
+    ]
   },
   {
     "stop_id": "R13",
@@ -1375,7 +2259,19 @@
     "platforms": {
       "N": "R13N",
       "S": "R13S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "5 Ave @ 59 St",
+        "distance_m": 64,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/b5a78bda-3ca9-4ad4-bd03-4cee70baba2d/image"
+      },
+      {
+        "name": "5 Ave @ E 60 St",
+        "distance_m": 67,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/cd949f21-54b2-4d11-8aae-4ffba8654271/image"
+      }
+    ]
   },
   {
     "stop_id": "126",
@@ -1387,7 +2283,19 @@
     "platforms": {
       "N": "126N",
       "S": "126S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Broadway @ 51 St",
+        "distance_m": 43,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/3d8e276f-b179-414d-a506-679d5e559d3e/image"
+      },
+      {
+        "name": "50 St Btwn\u00a08 Ave & Broadway",
+        "distance_m": 108,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/0a49d947-2a5b-498d-a386-2cef5ce883fa/image"
+      }
+    ]
   },
   {
     "stop_id": "A25",
@@ -1400,7 +2308,19 @@
     "platforms": {
       "N": "A25N",
       "S": "A25S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "50 St Btwn\u00a08 Ave & Broadway",
+        "distance_m": 98,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/0a49d947-2a5b-498d-a386-2cef5ce883fa/image"
+      },
+      {
+        "name": "8 Ave @ 49 St",
+        "distance_m": 100,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/4850e464-1111-4b5d-a72d-f54a0e12a789/image"
+      }
+    ]
   },
   {
     "stop_id": "B14",
@@ -1411,7 +2331,8 @@
     "platforms": {
       "N": "B14N",
       "S": "B14S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "630",
@@ -1423,7 +2344,19 @@
     "platforms": {
       "N": "630N",
       "S": "630S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Lexington Ave @ 49 St",
+        "distance_m": 157,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/d1d8cd99-7609-409a-a739-f5913dabf4e6/image"
+      },
+      {
+        "name": "Lexington Ave @ 53 St ",
+        "distance_m": 161,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/e777e4b4-25cb-4c39-98fc-8d6b25cf7de7/image"
+      }
+    ]
   },
   {
     "stop_id": "713",
@@ -1434,7 +2367,19 @@
     "platforms": {
       "N": "713N",
       "S": "713S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Roosevelt Ave @ 50 St",
+        "distance_m": 206,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/9bf91436-9ea5-4451-aa9d-a309f8e26a0f/image"
+      },
+      {
+        "name": "Queens Blvd @ 51 St",
+        "distance_m": 212,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/19c66e73-e218-42d8-af0b-a0ca53e6bf86/image"
+      }
+    ]
   },
   {
     "stop_id": "R40",
@@ -1447,7 +2392,19 @@
     "platforms": {
       "N": "R40N",
       "S": "R40S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "C2-GE-08_E_EB_at_54th_St",
+        "distance_m": 225,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/e892a3e8-e4b5-4a70-ac2f-a1ad82af36a6/image"
+      },
+      {
+        "name": "Gowanus Expy @ 49 St",
+        "distance_m": 354,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/2b4ed602-312d-4f31-a531-153ac33b4d87/image"
+      }
+    ]
   },
   {
     "stop_id": "B15",
@@ -1458,7 +2415,8 @@
     "platforms": {
       "N": "B15N",
       "S": "B15S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "B10",
@@ -1470,7 +2428,19 @@
     "platforms": {
       "N": "B10N",
       "S": "B10S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "6 Ave @ 57 St",
+        "distance_m": 45,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/e229e0fd-559b-4c1e-bcba-ac23db1d01e3/image"
+      },
+      {
+        "name": "6 Ave @ 58 St",
+        "distance_m": 133,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/a4c12003-9638-473d-bfe3-dddf509c80b8/image"
+      }
+    ]
   },
   {
     "stop_id": "R14",
@@ -1484,7 +2454,19 @@
     "platforms": {
       "N": "R14N",
       "S": "R14S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "7 Ave @ 57 St",
+        "distance_m": 110,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/f0b924fe-0df6-4ac2-85a2-5d2b96d081d5/image"
+      },
+      {
+        "name": "7 Ave @ 54 St",
+        "distance_m": 134,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/4ebe49c8-3e68-43f7-b415-da3db9f72693/image"
+      }
+    ]
   },
   {
     "stop_id": "629",
@@ -1497,7 +2479,19 @@
     "platforms": {
       "N": "629N",
       "S": "629S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Lexington Ave @ 57 ST",
+        "distance_m": 204,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/180dcc87-d861-43e3-8898-9ad5ee1a26a9/image"
+      },
+      {
+        "name": "3 Ave @ 57 St",
+        "distance_m": 255,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/62b3062d-542f-40f1-86ec-206710e789b6/image"
+      }
+    ]
   },
   {
     "stop_id": "R41",
@@ -1510,7 +2504,19 @@
     "platforms": {
       "N": "R41N",
       "S": "R41S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "BQE @ BELT PKWY Ramp & 60 St",
+        "distance_m": 212,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/2b06cd6d-e698-4c1a-b306-6827fb19ced7/image"
+      },
+      {
+        "name": "3 Ave @ 60 St",
+        "distance_m": 250,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/88278063-8891-4144-9295-f5dc9a94d2ea/image"
+      }
+    ]
   },
   {
     "stop_id": "125",
@@ -1522,7 +2528,19 @@
     "platforms": {
       "N": "125N",
       "S": "125S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Broadway @ Columbus Circle",
+        "distance_m": 34,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/c880d0c4-db84-44c2-9f00-62f21a83b5d0/image"
+      },
+      {
+        "name": "8 Ave @ Columbus Cr South",
+        "distance_m": 54,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/78a5c61d-9dce-4b52-b0da-bf7d22c1f501/image"
+      }
+    ]
   },
   {
     "stop_id": "A24",
@@ -1536,7 +2554,19 @@
     "platforms": {
       "N": "A24N",
       "S": "A24S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Broadway @ Columbus Circle",
+        "distance_m": 40,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/c880d0c4-db84-44c2-9f00-62f21a83b5d0/image"
+      },
+      {
+        "name": "8 Ave @ Columbus Cr South",
+        "distance_m": 65,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/78a5c61d-9dce-4b52-b0da-bf7d22c1f501/image"
+      }
+    ]
   },
   {
     "stop_id": "L02",
@@ -1547,7 +2577,8 @@
     "platforms": {
       "N": "L02N",
       "S": "L02S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "712",
@@ -1558,7 +2589,8 @@
     "platforms": {
       "N": "712N",
       "S": "712S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "B16",
@@ -1571,7 +2603,8 @@
     "platforms": {
       "N": "B16N",
       "S": "B16S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "G10",
@@ -1585,7 +2618,19 @@
     "platforms": {
       "N": "G10N",
       "S": "G10S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Queens Blvd @ 63 Dr",
+        "distance_m": 68,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/0bf496dc-36dd-4311-808e-84ab6acec605/image"
+      },
+      {
+        "name": "Qns Blvd @ 65 Ave",
+        "distance_m": 393,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/e179ded3-4cdc-4110-ac9c-f12c20f9ccad/image"
+      }
+    ]
   },
   {
     "stop_id": "G15",
@@ -1599,7 +2644,19 @@
     "platforms": {
       "N": "G15N",
       "S": "G15S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "C5-BQE-39-WB_at_Broadway-Ex40",
+        "distance_m": 147,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/2cde9c13-0146-4d4a-8d26-b6e7d34d9eec/image"
+      },
+      {
+        "name": "C5-BQE-38_E_at_Broadway",
+        "distance_m": 237,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/dd6b80d0-dad3-42a3-8b70-7cc963105027/image"
+      }
+    ]
   },
   {
     "stop_id": "124",
@@ -1611,7 +2668,19 @@
     "platforms": {
       "N": "124N",
       "S": "124S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Columbus Ave @ 65 St",
+        "distance_m": 55,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/04e09ed5-2d97-4e29-8438-b87748850dbb/image"
+      },
+      {
+        "name": "Central Park West @ 65 St",
+        "distance_m": 311,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/4f8c2e84-c15a-4474-91fb-7e14554d4c4e/image"
+      }
+    ]
   },
   {
     "stop_id": "G09",
@@ -1625,7 +2694,14 @@
     "platforms": {
       "N": "G09N",
       "S": "G09S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Qns Blvd @ 65 Ave",
+        "distance_m": 446,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/e179ded3-4cdc-4110-ac9c-f12c20f9ccad/image"
+      }
+    ]
   },
   {
     "stop_id": "628",
@@ -1637,7 +2713,19 @@
     "platforms": {
       "N": "628N",
       "S": "628S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Lexington Ave @ 72 St",
+        "distance_m": 290,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/65440c6b-ee6c-4406-8542-2992b6edf3f5/image"
+      },
+      {
+        "name": "Park Ave @ 72 St",
+        "distance_m": 333,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/b062d611-e0e8-40be-a180-c583391276f5/image"
+      }
+    ]
   },
   {
     "stop_id": "711",
@@ -1648,7 +2736,19 @@
     "platforms": {
       "N": "711N",
       "S": "711S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "C5-BQE-37-EB_at_41st_Ave",
+        "distance_m": 221,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/b5b12361-b5b6-483f-a76e-b6cf98e06694/image"
+      },
+      {
+        "name": "BQE @ BROADWAY (37 Ave)",
+        "distance_m": 241,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/77794e28-5ee9-4fdd-8c14-2615c46d8a40/image"
+      }
+    ]
   },
   {
     "stop_id": "D14",
@@ -1661,7 +2761,19 @@
     "platforms": {
       "N": "D14N",
       "S": "D14S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "7 Ave @ 54 St",
+        "distance_m": 86,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/4ebe49c8-3e68-43f7-b415-da3db9f72693/image"
+      },
+      {
+        "name": "Broadway @ 51 St",
+        "distance_m": 190,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/3d8e276f-b179-414d-a506-679d5e559d3e/image"
+      }
+    ]
   },
   {
     "stop_id": "D25",
@@ -1673,7 +2785,14 @@
     "platforms": {
       "N": "D25N",
       "S": "D25S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "7 Ave @ Union St",
+        "distance_m": 390,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/2064d8ab-597a-45d8-a3c9-5ab95a4e69e6/image"
+      }
+    ]
   },
   {
     "stop_id": "F24",
@@ -1685,7 +2804,19 @@
     "platforms": {
       "N": "F24N",
       "S": "F24S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "8 Ave @ 9 St",
+        "distance_m": 98,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/6851bbf7-e079-4379-b021-e5c7dafcb8c9/image"
+      },
+      {
+        "name": "7 Ave @ 9 St",
+        "distance_m": 120,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/089d8066-4e5e-4549-9496-a5f4ffb56ef5/image"
+      }
+    ]
   },
   {
     "stop_id": "B17",
@@ -1696,7 +2827,8 @@
     "platforms": {
       "N": "B17N",
       "S": "B17S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "123",
@@ -1709,7 +2841,14 @@
     "platforms": {
       "N": "123N",
       "S": "123S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Amsterdam @ 72 St",
+        "distance_m": 35,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/0bcfbc92-d455-4f62-846a-32afbefa3b4b/image"
+      }
+    ]
   },
   {
     "stop_id": "A22",
@@ -1722,7 +2861,19 @@
     "platforms": {
       "N": "A22N",
       "S": "A22S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Central Park West @ 72 St",
+        "distance_m": 79,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/984ebbad-ca64-41d8-8008-63aaae316952/image"
+      },
+      {
+        "name": "Central Park West @ 66 St",
+        "distance_m": 402,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/7e2400e3-cad2-407a-927b-d575a35048e3/image"
+      }
+    ]
   },
   {
     "stop_id": "Q03",
@@ -1735,7 +2886,19 @@
     "platforms": {
       "N": "Q03N",
       "S": "Q03S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "2 Ave @ 72 St",
+        "distance_m": 0,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/5674d0ea-703a-43c3-bea7-2b372d1eb00b/image"
+      },
+      {
+        "name": "2 Ave @ 74 St",
+        "distance_m": 173,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/6316453d-6161-4b98-a8e7-0e36c69d267c/image"
+      }
+    ]
   },
   {
     "stop_id": "710",
@@ -1746,7 +2909,19 @@
     "platforms": {
       "N": "710N",
       "S": "710S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Roosevelt Ave @ Broadway & \u00a074 st",
+        "distance_m": 21,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/9d7c4525-fba3-4ffe-ae79-f814f7dccf4e/image"
+      },
+      {
+        "name": "C5-BQE-37-EB_at_41st_Ave",
+        "distance_m": 334,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/b5b12361-b5b6-483f-a76e-b6cf98e06694/image"
+      }
+    ]
   },
   {
     "stop_id": "F07",
@@ -1758,7 +2933,14 @@
     "platforms": {
       "N": "F07N",
       "S": "F07S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "C5-GCP-13-EB_at_72nd_Rd-Ex11",
+        "distance_m": 356,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/5c258011-2fa1-4b50-96c9-738ec3cf678c/image"
+      }
+    ]
   },
   {
     "stop_id": "J17",
@@ -1770,7 +2952,8 @@
     "platforms": {
       "N": "J17N",
       "S": "J17S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "627",
@@ -1782,7 +2965,19 @@
     "platforms": {
       "N": "627N",
       "S": "627S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "3 AVE @ 76 St",
+        "distance_m": 173,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/3df06012-4c10-46e1-81d0-55405342e8df/image"
+      },
+      {
+        "name": "Park Ave @ 79 St",
+        "distance_m": 229,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/41397b64-d035-4b41-a03e-170fe4103d89/image"
+      }
+    ]
   },
   {
     "stop_id": "R43",
@@ -1793,7 +2988,8 @@
     "platforms": {
       "N": "R43N",
       "S": "R43S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "122",
@@ -1805,7 +3001,19 @@
     "platforms": {
       "N": "122N",
       "S": "122S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Amsterdam Ave @ 79 St",
+        "distance_m": 161,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/fb31c502-9b4a-4c19-9b26-5b84a1a39ec3/image"
+      },
+      {
+        "name": "Riverside Dr @ 79 St",
+        "distance_m": 271,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/36672d97-80d3-48f0-b3c4-6e6125069b90/image"
+      }
+    ]
   },
   {
     "stop_id": "B18",
@@ -1816,7 +3024,8 @@
     "platforms": {
       "N": "B18N",
       "S": "B18S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "L01",
@@ -1827,7 +3036,19 @@
     "platforms": {
       "N": "L01N",
       "S": "L01S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "8 Ave @ 14 St",
+        "distance_m": 6,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/3dc1adcd-7a47-45c3-a667-9d8fae9fdcd0/image"
+      },
+      {
+        "name": "9 AVE @ 14 St",
+        "distance_m": 264,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/8437bc26-9eb8-4915-93f7-f8ea4170e739/image"
+      }
+    ]
   },
   {
     "stop_id": "N02",
@@ -1839,7 +3060,19 @@
     "platforms": {
       "N": "N02N",
       "S": "N02S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Gowanus Expy @ 7 Ave & 67 St",
+        "distance_m": 442,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/1f81dbf0-4360-49fd-b768-b1a09d730eb1/image"
+      },
+      {
+        "name": "6 Ave @ 65 St - Ent EB BQE/Gowanus",
+        "distance_m": 454,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/11ab327a-184e-4630-b510-485d18e4a896/image"
+      }
+    ]
   },
   {
     "stop_id": "R21",
@@ -1853,7 +3086,19 @@
     "platforms": {
       "N": "R21N",
       "S": "R21S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "E 8 St @ Lafayette St",
+        "distance_m": 132,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/3546896d-d4c6-4966-8a43-2fe62e26526f/image"
+      },
+      {
+        "name": "Bowery @ Cooper Sq & 4 St",
+        "distance_m": 363,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/afff9762-e6d4-4b4d-a2e7-60c13763dd16/image"
+      }
+    ]
   },
   {
     "stop_id": "A59",
@@ -1864,7 +3109,8 @@
     "platforms": {
       "N": "A59N",
       "S": "A59S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "A21",
@@ -1877,7 +3123,19 @@
     "platforms": {
       "N": "A21N",
       "S": "A21S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Central Park West @ 77 St",
+        "distance_m": 248,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/90c74649-458d-4b5f-8f58-9ab77f03f4ad/image"
+      },
+      {
+        "name": "Central Park West @ 86 St",
+        "distance_m": 490,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/8a6bc417-4877-4ebe-8052-88c1b261baf1/image"
+      }
+    ]
   },
   {
     "stop_id": "709",
@@ -1888,7 +3146,19 @@
     "platforms": {
       "N": "709N",
       "S": "709S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Roosevelt Ave @ Baxter Ave",
+        "distance_m": 92,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/c531c196-3944-4318-8c33-92eb2be792ac/image"
+      },
+      {
+        "name": "Roosevelt Ave @ 79St",
+        "distance_m": 255,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/57a8e506-1b7d-4a44-94c2-5cb2a4d31b21/image"
+      }
+    ]
   },
   {
     "stop_id": "J16",
@@ -1899,7 +3169,8 @@
     "platforms": {
       "N": "J16N",
       "S": "J16S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "121",
@@ -1911,7 +3182,14 @@
     "platforms": {
       "N": "121N",
       "S": "121S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Amsterdam @ 86 St",
+        "distance_m": 146,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/0b0cbcfb-7c14-4b94-8bac-be494472c396/image"
+      }
+    ]
   },
   {
     "stop_id": "626",
@@ -1924,7 +3202,19 @@
     "platforms": {
       "N": "626N",
       "S": "626S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Park Ave @ 86 St",
+        "distance_m": 149,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/b7e5959c-1fc5-4fd2-a73e-426127b587b1/image"
+      },
+      {
+        "name": "3 Ave @ E 86 St",
+        "distance_m": 164,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/10c5f42d-6b32-4533-9c35-5715af4e4c76/image"
+      }
+    ]
   },
   {
     "stop_id": "A20",
@@ -1937,7 +3227,14 @@
     "platforms": {
       "N": "A20N",
       "S": "A20S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Central Park West @ 86 St",
+        "distance_m": 73,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/8a6bc417-4877-4ebe-8052-88c1b261baf1/image"
+      }
+    ]
   },
   {
     "stop_id": "N10",
@@ -1949,7 +3246,8 @@
     "platforms": {
       "N": "N10N",
       "S": "N10S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "Q04",
@@ -1962,7 +3260,19 @@
     "platforms": {
       "N": "Q04N",
       "S": "Q04S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "2 AVE @ 86 St",
+        "distance_m": 3,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/ac9ea7e9-4ab8-4188-be33-40266bcf9378/image"
+      },
+      {
+        "name": "3 Ave @ E 86 St",
+        "distance_m": 203,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/10c5f42d-6b32-4533-9c35-5715af4e4c76/image"
+      }
+    ]
   },
   {
     "stop_id": "R44",
@@ -1973,7 +3283,14 @@
     "platforms": {
       "N": "R44N",
       "S": "R44S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Gatling Pl @ 86 St - 186.2",
+        "distance_m": 496,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/a4fa36ac-f546-4ec1-b579-135f0ab204de/image"
+      }
+    ]
   },
   {
     "stop_id": "A60",
@@ -1984,7 +3301,8 @@
     "platforms": {
       "N": "A60N",
       "S": "A60S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "B12",
@@ -1997,7 +3315,8 @@
     "platforms": {
       "N": "B12N",
       "S": "B12S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "708",
@@ -2008,7 +3327,14 @@
     "platforms": {
       "N": "708N",
       "S": "708S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Roosevelt Ave @ Elmhurst Ave",
+        "distance_m": 32,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/7374a49f-373d-479a-b630-52bd07639260/image"
+      }
+    ]
   },
   {
     "stop_id": "120",
@@ -2021,7 +3347,19 @@
     "platforms": {
       "N": "120N",
       "S": "120S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Broadway @ 96 St",
+        "distance_m": 95,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/769a2e94-5bbc-4a03-86a7-39d3a70213f7/image"
+      },
+      {
+        "name": "Henry Hudson Pkwy @ 96 St",
+        "distance_m": 376,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/28107d1c-08da-4cd3-9777-09471ca30225/image"
+      }
+    ]
   },
   {
     "stop_id": "625",
@@ -2033,7 +3371,19 @@
     "platforms": {
       "N": "625N",
       "S": "625S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Lexington Ave @ 96 St",
+        "distance_m": 14,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/f5c6fd9c-8e5b-4c3c-8c3e-31233678f15b/image"
+      },
+      {
+        "name": "Park Ave @ 96 St",
+        "distance_m": 150,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/e73b2210-e5e7-42c0-a48f-5ce07b28da43/image"
+      }
+    ]
   },
   {
     "stop_id": "A19",
@@ -2046,7 +3396,19 @@
     "platforms": {
       "N": "A19N",
       "S": "A19S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Central Park West @ 96 St",
+        "distance_m": 3,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/19a2c89d-ea4d-437a-ae0c-2902ade217d6/image"
+      },
+      {
+        "name": "Central Park West @ 100 St",
+        "distance_m": 325,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/7c9ef8dd-7587-4e39-b486-13ef4c7e5721/image"
+      }
+    ]
   },
   {
     "stop_id": "Q05",
@@ -2059,7 +3421,19 @@
     "platforms": {
       "N": "Q05N",
       "S": "Q05S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "1 Ave @ 96 St",
+        "distance_m": 238,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/311a7ce2-4648-45f7-8b69-32709361adb7/image"
+      },
+      {
+        "name": "Lexington Ave @ 96 St",
+        "distance_m": 364,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/f5c6fd9c-8e5b-4c3c-8c3e-31233678f15b/image"
+      }
+    ]
   },
   {
     "stop_id": "J24",
@@ -2071,7 +3445,19 @@
     "platforms": {
       "N": "J24N",
       "S": "J24S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Jackie Robinson Pkwy @ Jamaica Ave",
+        "distance_m": 154,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/48a0813b-60b4-4dd2-953f-a40731ae1fba/image"
+      },
+      {
+        "name": "Atlantic Ave @ Pennsylvania Ave",
+        "distance_m": 200,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/0bbea8bd-10f1-4126-b3c5-9e9432eab749/image"
+      }
+    ]
   },
   {
     "stop_id": "210",
@@ -2083,7 +3469,8 @@
     "platforms": {
       "N": "210N",
       "S": "210S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "S17",
@@ -2094,7 +3481,8 @@
     "platforms": {
       "N": "S17N",
       "S": "S17S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "H01",
@@ -2105,7 +3493,8 @@
     "platforms": {
       "N": "H01N",
       "S": "H01S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "H02",
@@ -2116,7 +3505,8 @@
     "platforms": {
       "N": "H02N",
       "S": "H02S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "S11",
@@ -2127,7 +3517,8 @@
     "platforms": {
       "N": "S11N",
       "S": "S11S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "636",
@@ -2139,7 +3530,19 @@
     "platforms": {
       "N": "636N",
       "S": "636S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "E 8 St @ Lafayette St",
+        "distance_m": 13,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/3546896d-d4c6-4966-8a43-2fe62e26526f/image"
+      },
+      {
+        "name": "Bowery @ Cooper Sq & 4 St",
+        "distance_m": 326,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/afff9762-e6d4-4b4d-a2e7-60c13763dd16/image"
+      }
+    ]
   },
   {
     "stop_id": "R03",
@@ -2151,7 +3554,19 @@
     "platforms": {
       "N": "R03N",
       "S": "R03S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "GCP @ 31 ST",
+        "distance_m": 62,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/1e88b34b-2058-402e-9a3d-aca1c57696bf/image"
+      },
+      {
+        "name": "Astoria Blvd S S/R @ 33 St",
+        "distance_m": 100,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/60793334-580b-4538-b947-7312e95039bf/image"
+      }
+    ]
   },
   {
     "stop_id": "R01",
@@ -2163,7 +3578,8 @@
     "platforms": {
       "N": "R01N",
       "S": "R01S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "L24",
@@ -2174,7 +3590,14 @@
     "platforms": {
       "N": "L24N",
       "S": "L24S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Atlantic Ave @ Eastern Pkwy",
+        "distance_m": 451,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/fde1748c-7c0f-4df8-8acd-120df29a9305/image"
+      }
+    ]
   },
   {
     "stop_id": "235",
@@ -2188,7 +3611,19 @@
     "platforms": {
       "N": "235N",
       "S": "235S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Flatbush Ave and 4 Ave",
+        "distance_m": 57,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/9955d671-39ad-4fb7-b63e-4e78cf6ac157/image"
+      },
+      {
+        "name": "Flatbush Ave and Atlantic Ave",
+        "distance_m": 140,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/fa287d30-44a9-48ef-90d6-5ab0a54eab15/image"
+      }
+    ]
   },
   {
     "stop_id": "D24",
@@ -2200,7 +3635,19 @@
     "platforms": {
       "N": "D24N",
       "S": "D24S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Flatbush Ave and 4 Ave",
+        "distance_m": 109,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/9955d671-39ad-4fb7-b63e-4e78cf6ac157/image"
+      },
+      {
+        "name": "Atlantic Ave @ Barclays Center",
+        "distance_m": 120,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/053afe02-e1b3-4bea-9995-787e72c7fff4/image"
+      }
+    ]
   },
   {
     "stop_id": "R31",
@@ -2214,7 +3661,19 @@
     "platforms": {
       "N": "R31N",
       "S": "R31S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Flatbush Ave and 4 Ave",
+        "distance_m": 77,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/9955d671-39ad-4fb7-b63e-4e78cf6ac157/image"
+      },
+      {
+        "name": "Flatbush Ave and Atlantic Ave",
+        "distance_m": 161,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/fa287d30-44a9-48ef-90d6-5ab0a54eab15/image"
+      }
+    ]
   },
   {
     "stop_id": "D32",
@@ -2225,7 +3684,8 @@
     "platforms": {
       "N": "D32N",
       "S": "D32S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "F31",
@@ -2236,7 +3696,14 @@
     "platforms": {
       "N": "F31N",
       "S": "F31S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Ocean Pkwy @ Ave I",
+        "distance_m": 460,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/951e899e-bc73-4bef-ad6a-feaeaa17e9c9/image"
+      }
+    ]
   },
   {
     "stop_id": "D33",
@@ -2247,7 +3714,8 @@
     "platforms": {
       "N": "D33N",
       "S": "D33S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "D34",
@@ -2258,7 +3726,8 @@
     "platforms": {
       "N": "D34N",
       "S": "D34S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "F33",
@@ -2269,7 +3738,8 @@
     "platforms": {
       "N": "F33N",
       "S": "F33S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "F34",
@@ -2280,7 +3750,8 @@
     "platforms": {
       "N": "F34N",
       "S": "F34S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "D37",
@@ -2291,7 +3762,8 @@
     "platforms": {
       "N": "D37N",
       "S": "D37S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "F36",
@@ -2302,7 +3774,8 @@
     "platforms": {
       "N": "F36N",
       "S": "F36S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "N09",
@@ -2314,7 +3787,8 @@
     "platforms": {
       "N": "N09N",
       "S": "N09S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "F38",
@@ -2325,7 +3799,8 @@
     "platforms": {
       "N": "F38N",
       "S": "F38S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "B23",
@@ -2336,7 +3811,8 @@
     "platforms": {
       "N": "B23N",
       "S": "B23S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "B21",
@@ -2349,7 +3825,14 @@
     "platforms": {
       "N": "B21N",
       "S": "B21S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Bay Parkway @ Benson Ave",
+        "distance_m": 230,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/374c2047-3868-47e0-9767-a1a701d3fc67/image"
+      }
+    ]
   },
   {
     "stop_id": "F32",
@@ -2360,7 +3843,8 @@
     "platforms": {
       "N": "F32N",
       "S": "F32S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "N07",
@@ -2372,7 +3856,8 @@
     "platforms": {
       "N": "N07N",
       "S": "N07S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "R42",
@@ -2383,7 +3868,14 @@
     "platforms": {
       "N": "R42N",
       "S": "R42S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "3 Ave @ 65 St - Ent. EB BQE/Gowanus",
+        "distance_m": 482,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/be6b6830-b90d-40ab-98ab-9d67eb81e673/image"
+      }
+    ]
   },
   {
     "stop_id": "R45",
@@ -2394,7 +3886,19 @@
     "platforms": {
       "N": "R45N",
       "S": "R45S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "C2-GE-01-WB_at_92nd_St-Vrrazano_Br",
+        "distance_m": 344,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/90361876-3521-4aa4-a924-701716d5d506/image"
+      },
+      {
+        "name": "Gowanus Expy @ Gatling Pl @ 92 St - 4.34",
+        "distance_m": 397,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/cf6d1124-f012-4678-9277-2dca8d18232b/image"
+      }
+    ]
   },
   {
     "stop_id": "S20",
@@ -2405,7 +3909,8 @@
     "platforms": {
       "N": "S20N",
       "S": "S20S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "502",
@@ -2416,7 +3921,8 @@
     "platforms": {
       "N": "502N",
       "S": "502S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "H14",
@@ -2427,7 +3933,19 @@
     "platforms": {
       "N": "H14N",
       "S": "H14S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Shore Front Pkwy @ Beach 108 St",
+        "distance_m": 356,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/0360205b-183b-4dd3-a01f-e7f0deb5ff1f/image"
+      },
+      {
+        "name": "Beach Channel Dr @B 101 St",
+        "distance_m": 471,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/28880add-7b37-4d5f-8414-ad32aaab6c13/image"
+      }
+    ]
   },
   {
     "stop_id": "H10",
@@ -2438,7 +3956,14 @@
     "platforms": {
       "N": "H10N",
       "S": "H10S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Beach Channel Dr @B 32 St",
+        "distance_m": 427,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/4c47eda8-a4a1-4e40-baea-578e0a99e1d8/image"
+      }
+    ]
   },
   {
     "stop_id": "H09",
@@ -2449,7 +3974,19 @@
     "platforms": {
       "N": "H09N",
       "S": "H09S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Seagirt Blvd @ B 32 St",
+        "distance_m": 291,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/a01a8c98-d314-4eb4-b97c-4a4f80d71c4b/image"
+      },
+      {
+        "name": "Beach Channel Dr @B 32 St",
+        "distance_m": 403,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/4c47eda8-a4a1-4e40-baea-578e0a99e1d8/image"
+      }
+    ]
   },
   {
     "stop_id": "H08",
@@ -2460,7 +3997,8 @@
     "platforms": {
       "N": "H08N",
       "S": "H08S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "H07",
@@ -2471,7 +4009,8 @@
     "platforms": {
       "N": "H07N",
       "S": "H07S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "H06",
@@ -2482,7 +4021,14 @@
     "platforms": {
       "N": "H06N",
       "S": "H06S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Beach Channel Dr @ Beach 69 St",
+        "distance_m": 228,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/3cede892-0c4e-47ac-9a1a-1c837e9753c4/image"
+      }
+    ]
   },
   {
     "stop_id": "H12",
@@ -2493,7 +4039,19 @@
     "platforms": {
       "N": "H12N",
       "S": "H12S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Beach Channel Dr @B 90 St",
+        "distance_m": 220,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/4b99e17b-d784-4ae3-a8f4-fb20e05895ee/image"
+      },
+      {
+        "name": "Cross Bay Blvd @ North Channel Bridge",
+        "distance_m": 488,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/abdd6b29-6f7b-4662-bb43-078fe2c76199/image"
+      }
+    ]
   },
   {
     "stop_id": "H13",
@@ -2504,7 +4062,19 @@
     "platforms": {
       "N": "H13N",
       "S": "H13S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Beach Channel Dr @B 101 St",
+        "distance_m": 227,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/28880add-7b37-4d5f-8414-ad32aaab6c13/image"
+      },
+      {
+        "name": "Cross Bay Blvd @ North Channel Bridge",
+        "distance_m": 397,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/abdd6b29-6f7b-4662-bb43-078fe2c76199/image"
+      }
+    ]
   },
   {
     "stop_id": "L08",
@@ -2515,7 +4085,19 @@
     "platforms": {
       "N": "L08N",
       "S": "L08S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Metropolitan Ave @ Marcy Ave",
+        "distance_m": 419,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/0ed1503d-23fc-4102-ada3-5d647a7b20cb/image"
+      },
+      {
+        "name": "Metropolitan Ave @ Berry St",
+        "distance_m": 453,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/40213626-3ef8-4d63-be77-e1d84ca4d19c/image"
+      }
+    ]
   },
   {
     "stop_id": "D03",
@@ -2527,7 +4109,14 @@
     "platforms": {
       "N": "D03N",
       "S": "D03S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Grand Concourse @ Bedford Park Blvd",
+        "distance_m": 123,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/2f28f8df-5eb5-4327-ab1f-7feaf2630b34/image"
+      }
+    ]
   },
   {
     "stop_id": "405",
@@ -2538,7 +4127,14 @@
     "platforms": {
       "N": "405N",
       "S": "405S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Grand Concourse @ Bedford Park Blvd",
+        "distance_m": 243,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/2f28f8df-5eb5-4327-ab1f-7feaf2630b34/image"
+      }
+    ]
   },
   {
     "stop_id": "G33",
@@ -2549,7 +4145,8 @@
     "platforms": {
       "N": "G33N",
       "S": "G33S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "236",
@@ -2562,7 +4159,19 @@
     "platforms": {
       "N": "236N",
       "S": "236S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Flatbush Ave and Atlantic Ave",
+        "distance_m": 309,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/fa287d30-44a9-48ef-90d6-5ab0a54eab15/image"
+      },
+      {
+        "name": "Atlantic Ave @ Barclays Center",
+        "distance_m": 316,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/053afe02-e1b3-4bea-9995-787e72c7fff4/image"
+      }
+    ]
   },
   {
     "stop_id": "F20",
@@ -2574,7 +4183,14 @@
     "platforms": {
       "N": "F20N",
       "S": "F20S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Atlantic Ave @ Boerum Pl",
+        "distance_m": 329,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/e64ec820-69c4-4cc9-b573-4d7d66c4a7eb/image"
+      }
+    ]
   },
   {
     "stop_id": "D29",
@@ -2585,7 +4201,8 @@
     "platforms": {
       "N": "D29N",
       "S": "D29S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "245",
@@ -2597,7 +4214,8 @@
     "platforms": {
       "N": "245N",
       "S": "245S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "637",
@@ -2609,7 +4227,19 @@
     "platforms": {
       "N": "637N",
       "S": "637S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Houston St @ Lafeyette St",
+        "distance_m": 114,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/6fa8acf2-f5bf-4200-afde-1240868ca3e3/image"
+      },
+      {
+        "name": "Houston St @ Broadway",
+        "distance_m": 184,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/5214cfe8-ccfc-42e9-8e2a-ff2865c1a518/image"
+      }
+    ]
   },
   {
     "stop_id": "232",
@@ -2621,7 +4251,19 @@
     "platforms": {
       "N": "232N",
       "S": "232S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Cadman Plz West @ Tillary St",
+        "distance_m": 351,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/07c5a9ab-38b0-4176-a932-395cded5858e/image"
+      },
+      {
+        "name": "Adams St @ Tillary St",
+        "distance_m": 361,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/5bd248b9-1dab-4118-b4b2-d3ef3fbd7085/image"
+      }
+    ]
   },
   {
     "stop_id": "423",
@@ -2633,7 +4275,19 @@
     "platforms": {
       "N": "423N",
       "S": "423S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Atlantic Ave @ Boerum Pl",
+        "distance_m": 371,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/e64ec820-69c4-4cc9-b573-4d7d66c4a7eb/image"
+      },
+      {
+        "name": "Atlantic Ave @ Clinton ST",
+        "distance_m": 427,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/418ae598-7cdd-48ff-8aea-97fc3d312407/image"
+      }
+    ]
   },
   {
     "stop_id": "M19",
@@ -2645,7 +4299,19 @@
     "platforms": {
       "N": "M19N",
       "S": "M19S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Delancey St @ Bowery St ",
+        "distance_m": 9,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/a3058350-1552-459f-8379-2fd06895e70a/image"
+      },
+      {
+        "name": "Grand St @ Bowery",
+        "distance_m": 220,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/c733e881-862d-4874-9d00-9bfdc3b27cbc/image"
+      }
+    ]
   },
   {
     "stop_id": "420",
@@ -2657,7 +4323,19 @@
     "platforms": {
       "N": "420N",
       "S": "420S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Broadway @ Battery pl",
+        "distance_m": 26,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/7cfc551d-403d-46a8-aa74-89f472b7136b/image"
+      },
+      {
+        "name": "Broadway @ Morris St",
+        "distance_m": 136,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/08328372-55a2-448a-b180-9b4bce0b8d9e/image"
+      }
+    ]
   },
   {
     "stop_id": "F05",
@@ -2669,7 +4347,14 @@
     "platforms": {
       "N": "F05N",
       "S": "F05S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "C5-VWE-20_NB_at_Main_Street-Ex8",
+        "distance_m": 124,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/ddd3f06a-7e0e-4e00-b76a-52a511e9009d/image"
+      }
+    ]
   },
   {
     "stop_id": "D40",
@@ -2681,7 +4366,8 @@
     "platforms": {
       "N": "D40N",
       "S": "D40S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "H04",
@@ -2692,7 +4378,14 @@
     "platforms": {
       "N": "H04N",
       "S": "H04S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Cross Bay Blvd @ 6 Rd",
+        "distance_m": 303,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/15ccea84-99db-4e7d-8ce4-2dc93c7d23a0/image"
+      }
+    ]
   },
   {
     "stop_id": "M23",
@@ -2704,7 +4397,19 @@
     "platforms": {
       "N": "M23N",
       "S": "M23S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Broadway @ Morris St",
+        "distance_m": 200,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/08328372-55a2-448a-b180-9b4bce0b8d9e/image"
+      },
+      {
+        "name": "Broadway @ Battery pl",
+        "distance_m": 337,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/7cfc551d-403d-46a8-aa74-89f472b7136b/image"
+      }
+    ]
   },
   {
     "stop_id": "G30",
@@ -2715,7 +4420,8 @@
     "platforms": {
       "N": "G30N",
       "S": "G30S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "R05",
@@ -2727,7 +4433,8 @@
     "platforms": {
       "N": "R05N",
       "S": "R05S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "A51",
@@ -2739,7 +4446,14 @@
     "platforms": {
       "N": "A51N",
       "S": "A51S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Atlantic Ave @ Eastern Pkwy",
+        "distance_m": 334,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/fde1748c-7c0f-4df8-8acd-120df29a9305/image"
+      }
+    ]
   },
   {
     "stop_id": "J27",
@@ -2751,7 +4465,14 @@
     "platforms": {
       "N": "J27N",
       "S": "J27S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Atlantic Ave @ Eastern Pkwy",
+        "distance_m": 473,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/fde1748c-7c0f-4df8-8acd-120df29a9305/image"
+      }
+    ]
   },
   {
     "stop_id": "L22",
@@ -2762,7 +4483,14 @@
     "platforms": {
       "N": "L22N",
       "S": "L22S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Jackie Robinson Pkwy @ Jamaica Ave",
+        "distance_m": 469,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/48a0813b-60b4-4dd2-953f-a40731ae1fba/image"
+      }
+    ]
   },
   {
     "stop_id": "D21",
@@ -2776,7 +4504,19 @@
     "platforms": {
       "N": "D21N",
       "S": "D21S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Houston St @ Broadway",
+        "distance_m": 50,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/5214cfe8-ccfc-42e9-8e2a-ff2865c1a518/image"
+      },
+      {
+        "name": "Houston St @ Lafeyette St",
+        "distance_m": 72,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/6fa8acf2-f5bf-4200-afde-1240868ca3e3/image"
+      }
+    ]
   },
   {
     "stop_id": "212",
@@ -2788,7 +4528,8 @@
     "platforms": {
       "N": "212N",
       "S": "212S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "618",
@@ -2799,7 +4540,19 @@
     "platforms": {
       "N": "618N",
       "S": "618S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Major Deegan @ Triboro Bridge",
+        "distance_m": 245,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/9cf2184a-e075-47c2-9d02-8e6edcdf28b8/image"
+      },
+      {
+        "name": "C1-MDE-02-NB_at_Willis_Ave-Ex2",
+        "distance_m": 389,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/a654976f-34a5-46d3-a57d-efe949153f41/image"
+      }
+    ]
   },
   {
     "stop_id": "640",
@@ -2812,7 +4565,19 @@
     "platforms": {
       "N": "640N",
       "S": "640S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Brooklyn Bridge @ Centre Street",
+        "distance_m": 99,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/e0ac368d-414a-4606-bea5-236e94a2d5b5/image"
+      },
+      {
+        "name": "Broadway @ Chambers St",
+        "distance_m": 221,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/0952329e-6b6f-4286-b5e3-b682eae94e52/image"
+      }
+    ]
   },
   {
     "stop_id": "602",
@@ -2823,7 +4588,14 @@
     "platforms": {
       "N": "602N",
       "S": "602S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "C1-BRE-11-SB_at_Buhre_Ave-Ex8A",
+        "distance_m": 487,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/b19c9130-3a2d-4f7a-94a5-495eeea219ef/image"
+      }
+    ]
   },
   {
     "stop_id": "209",
@@ -2835,7 +4607,8 @@
     "platforms": {
       "N": "209N",
       "S": "209S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "409",
@@ -2846,7 +4619,8 @@
     "platforms": {
       "N": "409N",
       "S": "409S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "L21",
@@ -2857,7 +4631,14 @@
     "platforms": {
       "N": "L21N",
       "S": "L21S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Bushwick Ave @ Cooper St",
+        "distance_m": 469,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/a8805cdb-e305-42d0-b011-cb825380cf8e/image"
+      }
+    ]
   },
   {
     "stop_id": "135",
@@ -2869,7 +4650,19 @@
     "platforms": {
       "N": "135N",
       "S": "135S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Varick St @ Watt St",
+        "distance_m": 105,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/23bcc0dd-d395-45fe-8106-676ba7293208/image"
+      },
+      {
+        "name": "Varick St @ Laight St",
+        "distance_m": 117,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/dce301aa-b937-4041-b9fc-960abcd79178/image"
+      }
+    ]
   },
   {
     "stop_id": "639",
@@ -2881,7 +4674,19 @@
     "platforms": {
       "N": "639N",
       "S": "639S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Baxter St @ Canal Street",
+        "distance_m": 158,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/96be7098-dda4-42da-bfe2-55bc5c6b94fb/image"
+      },
+      {
+        "name": "Canal St @ Broadway",
+        "distance_m": 168,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/b6369867-aa5f-4df3-8af3-dcac2eb0dfc8/image"
+      }
+    ]
   },
   {
     "stop_id": "A34",
@@ -2894,7 +4699,19 @@
     "platforms": {
       "N": "A34N",
       "S": "A34S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Canal St @ 6 Ave ",
+        "distance_m": 117,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/c6d82dbd-1c49-478f-819f-a38c1826b628/image"
+      },
+      {
+        "name": "Varick St @ Beach St ",
+        "distance_m": 131,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/56b99f9c-1f5c-47e2-8c85-d34de045a4ce/image"
+      }
+    ]
   },
   {
     "stop_id": "M20",
@@ -2906,7 +4723,19 @@
     "platforms": {
       "N": "M20N",
       "S": "M20S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Baxter St @ Canal Street",
+        "distance_m": 77,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/96be7098-dda4-42da-bfe2-55bc5c6b94fb/image"
+      },
+      {
+        "name": "Canal St @ Broadway",
+        "distance_m": 239,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/b6369867-aa5f-4df3-8af3-dcac2eb0dfc8/image"
+      }
+    ]
   },
   {
     "stop_id": "Q01",
@@ -2918,7 +4747,19 @@
     "platforms": {
       "N": "Q01N",
       "S": "Q01S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Baxter St @ Canal Street",
+        "distance_m": 134,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/96be7098-dda4-42da-bfe2-55bc5c6b94fb/image"
+      },
+      {
+        "name": "Canal St @ Broadway",
+        "distance_m": 183,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/b6369867-aa5f-4df3-8af3-dcac2eb0dfc8/image"
+      }
+    ]
   },
   {
     "stop_id": "R23",
@@ -2931,7 +4772,19 @@
     "platforms": {
       "N": "R23N",
       "S": "R23S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Canal St @ Broadway",
+        "distance_m": 15,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/b6369867-aa5f-4df3-8af3-dcac2eb0dfc8/image"
+      },
+      {
+        "name": "Grand St @ Broadway",
+        "distance_m": 175,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/63e79f0b-7dea-4c8e-864c-f3315f9cc62c/image"
+      }
+    ]
   },
   {
     "stop_id": "L29",
@@ -2942,7 +4795,14 @@
     "platforms": {
       "N": "L29N",
       "S": "L29S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Rockaway Pkwy @ Flatlands Ave",
+        "distance_m": 340,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/2048e8ae-11df-4ff9-8f4d-b8621af47081/image"
+      }
+    ]
   },
   {
     "stop_id": "F21",
@@ -2954,7 +4814,8 @@
     "platforms": {
       "N": "F21N",
       "S": "F21S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "607",
@@ -2965,7 +4826,8 @@
     "platforms": {
       "N": "607N",
       "S": "607S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "118",
@@ -2976,7 +4838,8 @@
     "platforms": {
       "N": "118N",
       "S": "118S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "A17",
@@ -2989,7 +4852,14 @@
     "platforms": {
       "N": "A17N",
       "S": "A17S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "CPW @ 110 St",
+        "distance_m": 37,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/c217a64e-95c3-4442-96d1-7a6c177615d7/image"
+      }
+    ]
   },
   {
     "stop_id": "M10",
@@ -3000,7 +4870,14 @@
     "platforms": {
       "N": "M10N",
       "S": "M10S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Bushwick Ave @ De Kalb Ave",
+        "distance_m": 318,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/068461e2-c62f-4ce4-adac-5f9efe92af1d/image"
+      }
+    ]
   },
   {
     "stop_id": "137",
@@ -3013,7 +4890,19 @@
     "platforms": {
       "N": "137N",
       "S": "137S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Church St @ Park Pl",
+        "distance_m": 245,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/b222af52-75f2-4588-80ef-354bb7c159c8/image"
+      },
+      {
+        "name": "Broadway @ Chambers St",
+        "distance_m": 288,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/0952329e-6b6f-4286-b5e3-b682eae94e52/image"
+      }
+    ]
   },
   {
     "stop_id": "A36",
@@ -3025,7 +4914,19 @@
     "platforms": {
       "N": "A36N",
       "S": "A36S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Church St @ Park Pl",
+        "distance_m": 110,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/b222af52-75f2-4588-80ef-354bb7c159c8/image"
+      },
+      {
+        "name": "Broadway @ Chambers St",
+        "distance_m": 192,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/0952329e-6b6f-4286-b5e3-b682eae94e52/image"
+      }
+    ]
   },
   {
     "stop_id": "M21",
@@ -3037,7 +4938,19 @@
     "platforms": {
       "N": "M21N",
       "S": "M21S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Brooklyn Bridge @ Centre Street",
+        "distance_m": 158,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/e0ac368d-414a-4606-bea5-236e94a2d5b5/image"
+      },
+      {
+        "name": "Worth St @ Centre St",
+        "distance_m": 238,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/07b8616e-373e-4ec9-89cc-11cad7d59fcb/image"
+      }
+    ]
   },
   {
     "stop_id": "J28",
@@ -3049,7 +4962,14 @@
     "platforms": {
       "N": "J28N",
       "S": "J28S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Bushwick Ave @ Cooper St",
+        "distance_m": 216,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/a8805cdb-e305-42d0-b011-cb825380cf8e/image"
+      }
+    ]
   },
   {
     "stop_id": "133",
@@ -3061,7 +4981,8 @@
     "platforms": {
       "N": "133N",
       "S": "133S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "244",
@@ -3073,7 +4994,8 @@
     "platforms": {
       "N": "244N",
       "S": "244S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "D28",
@@ -3085,7 +5007,8 @@
     "platforms": {
       "N": "D28N",
       "S": "D28S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "F27",
@@ -3097,7 +5020,19 @@
     "platforms": {
       "N": "F27N",
       "S": "F27S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Ft. Hamilton Pkwy @ McDonald Ave",
+        "distance_m": 411,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/88895623-f6fa-4509-a927-8eae076725da/image"
+      },
+      {
+        "name": "Ocean Pkwy @ Church Ave",
+        "distance_m": 460,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/2293205b-2b15-44da-8220-6833a13c5a80/image"
+      }
+    ]
   },
   {
     "stop_id": "R24",
@@ -3110,7 +5045,19 @@
     "platforms": {
       "N": "R24N",
       "S": "R24S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Broadway @ Chambers St",
+        "distance_m": 114,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/0952329e-6b6f-4286-b5e3-b682eae94e52/image"
+      },
+      {
+        "name": "Church St @ Park Pl",
+        "distance_m": 194,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/b222af52-75f2-4588-80ef-354bb7c159c8/image"
+      }
+    ]
   },
   {
     "stop_id": "231",
@@ -3122,7 +5069,19 @@
     "platforms": {
       "N": "231N",
       "S": "231S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Cadman Plz West @ Tillary St",
+        "distance_m": 216,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/07c5a9ab-38b0-4176-a932-395cded5858e/image"
+      },
+      {
+        "name": "Adams St @ Tillary St",
+        "distance_m": 379,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/5bd248b9-1dab-4118-b4b2-d3ef3fbd7085/image"
+      }
+    ]
   },
   {
     "stop_id": "G34",
@@ -3133,7 +5092,8 @@
     "platforms": {
       "N": "G34N",
       "S": "G34S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "J22",
@@ -3144,7 +5104,14 @@
     "platforms": {
       "N": "J22N",
       "S": "J22S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Atlantic Ave @ Highland Pl (Berriman St)",
+        "distance_m": 340,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/e016c2e4-a602-4c4d-ab9e-fadfa7f4e703/image"
+      }
+    ]
   },
   {
     "stop_id": "S28",
@@ -3155,7 +5122,8 @@
     "platforms": {
       "N": "S28N",
       "S": "S28S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "A44",
@@ -3167,7 +5135,14 @@
     "platforms": {
       "N": "A44N",
       "S": "A44S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Atlantic Ave @ Vanderbilt Ave",
+        "distance_m": 275,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/b5d8fe4f-1cf5-4cd8-8211-8353e68da1cb/image"
+      }
+    ]
   },
   {
     "stop_id": "G35",
@@ -3178,7 +5153,8 @@
     "platforms": {
       "N": "G35N",
       "S": "G35S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "D43",
@@ -3192,7 +5168,19 @@
     "platforms": {
       "N": "D43N",
       "S": "D43S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Stillwell Ave @ Neptune Ave",
+        "distance_m": 204,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/85d33af1-a82c-499c-b303-a16c8c891fe6/image"
+      },
+      {
+        "name": "Stillwell Ave @ Surf Ave",
+        "distance_m": 207,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/84a2c36a-ef84-41b6-a4eb-3c3a2bf3bf10/image"
+      }
+    ]
   },
   {
     "stop_id": "D30",
@@ -3203,7 +5191,8 @@
     "platforms": {
       "N": "D30N",
       "S": "D30S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "R25",
@@ -3216,7 +5205,19 @@
     "platforms": {
       "N": "R25N",
       "S": "R25S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Church Street @ Vesey",
+        "distance_m": 175,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/5beee073-18a8-4349-af6b-75eff7a78371/image"
+      },
+      {
+        "name": "Broadway @ Vesey St",
+        "distance_m": 214,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/73b66e92-508f-407c-bada-883ab992fde0/image"
+      }
+    ]
   },
   {
     "stop_id": "719",
@@ -3227,7 +5228,19 @@
     "platforms": {
       "N": "719N",
       "S": "719S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Jackson Ave @ Thomson Ave",
+        "distance_m": 171,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/c5af3e42-bb95-4aa3-a9d1-2d8071412dab/image"
+      },
+      {
+        "name": "43 Ave @ 27 St",
+        "distance_m": 329,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/38790585-9444-46a7-b85e-2db8f163ecf7/image"
+      }
+    ]
   },
   {
     "stop_id": "G22",
@@ -3238,7 +5251,19 @@
     "platforms": {
       "N": "G22N",
       "S": "G22S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Jackson Ave @ Thomson Ave",
+        "distance_m": 53,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/c5af3e42-bb95-4aa3-a9d1-2d8071412dab/image"
+      },
+      {
+        "name": "43 Ave @ 27 St",
+        "distance_m": 259,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/38790585-9444-46a7-b85e-2db8f163ecf7/image"
+      }
+    ]
   },
   {
     "stop_id": "F09",
@@ -3250,7 +5275,19 @@
     "platforms": {
       "N": "F09N",
       "S": "F09S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Jackson Ave @ Thomson Ave",
+        "distance_m": 260,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/c5af3e42-bb95-4aa3-a9d1-2d8071412dab/image"
+      },
+      {
+        "name": "43 Ave @ 27 St",
+        "distance_m": 365,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/38790585-9444-46a7-b85e-2db8f163ecf7/image"
+      }
+    ]
   },
   {
     "stop_id": "R28",
@@ -3263,7 +5300,19 @@
     "platforms": {
       "N": "R28N",
       "S": "R28S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Cadman Plz West @ Tillary St",
+        "distance_m": 248,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/07c5a9ab-38b0-4176-a932-395cded5858e/image"
+      },
+      {
+        "name": "Adams St @ Tillary St",
+        "distance_m": 351,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/5bd248b9-1dab-4118-b4b2-d3ef3fbd7085/image"
+      }
+    ]
   },
   {
     "stop_id": "J20",
@@ -3275,7 +5324,8 @@
     "platforms": {
       "N": "J20N",
       "S": "J20S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "250",
@@ -3289,7 +5339,14 @@
     "platforms": {
       "N": "250N",
       "S": "250S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Eastern Pkwy @ Utica Ave",
+        "distance_m": 152,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/c89b62d1-35be-4bb8-b22b-a77c2583733c/image"
+      }
+    ]
   },
   {
     "stop_id": "617",
@@ -3300,7 +5357,14 @@
     "platforms": {
       "N": "617N",
       "S": "617S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "C1-MDE-01-Cntr_at_E.135th_St-Ex1",
+        "distance_m": 269,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/351d3d12-fd9e-4e4c-b279-cd8f3f1f194c/image"
+      }
+    ]
   },
   {
     "stop_id": "J19",
@@ -3311,7 +5375,8 @@
     "platforms": {
       "N": "J19N",
       "S": "J19S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "L16",
@@ -3322,7 +5387,8 @@
     "platforms": {
       "N": "L16N",
       "S": "L16S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "R30",
@@ -3338,7 +5404,19 @@
     "platforms": {
       "N": "R30N",
       "S": "R30S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Flatbush Ave @ DeKalb Ave",
+        "distance_m": 73,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/243e945a-b872-4bac-9898-94ce8963ef44/image"
+      },
+      {
+        "name": "Flatbush Ave @ Willoughby",
+        "distance_m": 73,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/f3d14ce1-8df5-4c5c-88b8-f17f56077e04/image"
+      }
+    ]
   },
   {
     "stop_id": "F15",
@@ -3349,7 +5427,19 @@
     "platforms": {
       "N": "F15N",
       "S": "F15S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Delancy St @ Essex St",
+        "distance_m": 9,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/1f0cfaad-4c0a-46e8-a5e3-f206d83a875d/image"
+      },
+      {
+        "name": "Allen St @ Delancey St (B)",
+        "distance_m": 203,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/a249b3ee-bde9-4d6d-9a18-9cd2108d2eb0/image"
+      }
+    ]
   },
   {
     "stop_id": "M18",
@@ -3362,7 +5452,19 @@
     "platforms": {
       "N": "M18N",
       "S": "M18S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Delancy St @ Essex St",
+        "distance_m": 70,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/1f0cfaad-4c0a-46e8-a5e3-f206d83a875d/image"
+      },
+      {
+        "name": "WBB-6 South Rdwy @ Delancy St and Clinton St",
+        "distance_m": 155,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/2334b7bd-a237-4bf5-9224-5241bd4ee29e/image"
+      }
+    ]
   },
   {
     "stop_id": "F29",
@@ -3373,7 +5475,14 @@
     "platforms": {
       "N": "F29N",
       "S": "F29S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Ocean Pkwy @ Ditmas Ave",
+        "distance_m": 457,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/95045f2c-9108-40c2-9439-a139001d4a74/image"
+      }
+    ]
   },
   {
     "stop_id": "S25",
@@ -3384,7 +5493,14 @@
     "platforms": {
       "N": "S25N",
       "S": "S25S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Hylan Blvd @ Seaview Ave",
+        "distance_m": 430,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/a67d1358-ca36-4f9a-a432-056361f7c904/image"
+      }
+    ]
   },
   {
     "stop_id": "109",
@@ -3395,7 +5511,14 @@
     "platforms": {
       "N": "109N",
       "S": "109S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Harlem River Dr @ Dyckman St /10 Av",
+        "distance_m": 278,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/e610bc71-9bfb-4a92-928d-ad33cd1b9afd/image"
+      }
+    ]
   },
   {
     "stop_id": "A03",
@@ -3406,7 +5529,8 @@
     "platforms": {
       "N": "A03N",
       "S": "A03S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "616",
@@ -3417,7 +5541,8 @@
     "platforms": {
       "N": "616N",
       "S": "616S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "615",
@@ -3428,7 +5553,8 @@
     "platforms": {
       "N": "615N",
       "S": "615S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "213",
@@ -3440,7 +5566,8 @@
     "platforms": {
       "N": "213N",
       "S": "213S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "L28",
@@ -3451,7 +5578,8 @@
     "platforms": {
       "N": "L28N",
       "S": "L28S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "F16",
@@ -3462,7 +5590,19 @@
     "platforms": {
       "N": "F16N",
       "S": "F16S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Canal Street @ Allen Street",
+        "distance_m": 249,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/ed12f2da-9f65-44f0-a162-123c412716c6/image"
+      },
+      {
+        "name": "MHB-17 Manh LRW @ X OVER",
+        "distance_m": 319,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/2a0021de-869a-4a31-b151-0be7f78d9c05/image"
+      }
+    ]
   },
   {
     "stop_id": "501",
@@ -3473,7 +5613,8 @@
     "platforms": {
       "N": "501N",
       "S": "501S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "238",
@@ -3486,7 +5627,19 @@
     "platforms": {
       "N": "238N",
       "S": "238S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Grand Army Plaza",
+        "distance_m": 381,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/1c51b3ec-3d29-4025-928d-4e182e7c0bd5/image"
+      },
+      {
+        "name": "Flatbush Ave @ Eastern Pkwy",
+        "distance_m": 423,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/cb68b8b1-9093-4f2e-acf2-8133b047e8df/image"
+      }
+    ]
   },
   {
     "stop_id": "611",
@@ -3497,7 +5650,8 @@
     "platforms": {
       "N": "611N",
       "S": "611S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "G13",
@@ -3511,7 +5665,8 @@
     "platforms": {
       "N": "G13N",
       "S": "G13S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "S18",
@@ -3522,7 +5677,14 @@
     "platforms": {
       "N": "S18N",
       "S": "S18S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Richmond Ave @ Amboy Rd - quad - ptz - 1.218",
+        "distance_m": 145,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/f2029d59-52c0-44b9-8030-90e03f710f8f/image"
+      }
+    ]
   },
   {
     "stop_id": "A55",
@@ -3534,7 +5696,8 @@
     "platforms": {
       "N": "A55N",
       "S": "A55S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "H11",
@@ -3545,7 +5708,14 @@
     "platforms": {
       "N": "H11N",
       "S": "H11S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Beach Channel Dr @B Mott Ave",
+        "distance_m": 152,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/eca4e591-4ac8-471c-8e76-4710b52e6f9b/image"
+      }
+    ]
   },
   {
     "stop_id": "247",
@@ -3557,7 +5727,14 @@
     "platforms": {
       "N": "247N",
       "S": "247S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Flatbush Ave @ Nostrand Ave",
+        "distance_m": 6,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/5a9ebe48-fb36-4de7-8666-f50de83c7941/image"
+      }
+    ]
   },
   {
     "stop_id": "G31",
@@ -3568,7 +5745,8 @@
     "platforms": {
       "N": "G31N",
       "S": "G31S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "M12",
@@ -3580,7 +5758,8 @@
     "platforms": {
       "N": "M12N",
       "S": "M12S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "701",
@@ -3591,7 +5770,19 @@
     "platforms": {
       "N": "701N",
       "S": "701S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Main St @ Roosevelt Ave",
+        "distance_m": 9,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/23605598-4eb1-46c2-8b80-8a8c124f020a/image"
+      },
+      {
+        "name": "Main St @ Sanford Ave",
+        "distance_m": 342,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/33ea5ed1-0d62-4f44-9fda-fda5c2327eed/image"
+      }
+    ]
   },
   {
     "stop_id": "407",
@@ -3602,7 +5793,14 @@
     "platforms": {
       "N": "407N",
       "S": "407S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Fordham Rd @  Grand Concourse",
+        "distance_m": 331,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/f6ca5824-45da-48a9-8268-2725eed58b79/image"
+      }
+    ]
   },
   {
     "stop_id": "D05",
@@ -3614,7 +5812,14 @@
     "platforms": {
       "N": "D05N",
       "S": "D05S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Fordham Rd @  Grand Concourse",
+        "distance_m": 138,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/f6ca5824-45da-48a9-8268-2725eed58b79/image"
+      }
+    ]
   },
   {
     "stop_id": "M05",
@@ -3625,7 +5830,8 @@
     "platforms": {
       "N": "M05N",
       "S": "M05S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "G08",
@@ -3639,7 +5845,14 @@
     "platforms": {
       "N": "G08N",
       "S": "G08S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Queens Blvd @ Yellowstone Blvd",
+        "distance_m": 272,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/c0e47f5d-29d0-4103-9c69-9e461334a21b/image"
+      }
+    ]
   },
   {
     "stop_id": "B13",
@@ -3650,7 +5863,8 @@
     "platforms": {
       "N": "B13N",
       "S": "B13S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "F26",
@@ -3662,7 +5876,19 @@
     "platforms": {
       "N": "F26N",
       "S": "F26S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "C2-PE-02-Ctr_at_Ft_Hamltn_Pkwy-Ex5",
+        "distance_m": 98,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/a8f2d065-c266-4378-ac63-50b81677da84/image"
+      },
+      {
+        "name": "C2-PE-01-Cntr_at_Caton_Ave-Ex6",
+        "distance_m": 432,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/5f4bef40-ddee-41fa-a623-6388d561f416/image"
+      }
+    ]
   },
   {
     "stop_id": "N03",
@@ -3674,7 +5900,14 @@
     "platforms": {
       "N": "N03N",
       "S": "N03S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Fort Hamilton Pkwy @ 60 St",
+        "distance_m": 204,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/ddc62c2f-dab2-48e0-918e-742e62e78ec1/image"
+      }
+    ]
   },
   {
     "stop_id": "A45",
@@ -3686,7 +5919,14 @@
     "platforms": {
       "N": "A45N",
       "S": "A45S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Atlantic Ave @ Bedford Ave",
+        "distance_m": 435,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/2fe54994-17f6-499d-a3ab-8c6dc9dbda9e/image"
+      }
+    ]
   },
   {
     "stop_id": "239",
@@ -3700,7 +5940,14 @@
     "platforms": {
       "N": "239N",
       "S": "239S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Eastern Pkwy @ Bedford Ave",
+        "distance_m": 255,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/f4c47f52-9c8d-494a-92da-4dcc09a19fab/image"
+      }
+    ]
   },
   {
     "stop_id": "136",
@@ -3712,7 +5959,19 @@
     "platforms": {
       "N": "136N",
       "S": "136S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Varick St @ Beach St ",
+        "distance_m": 125,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/56b99f9c-1f5c-47e2-8c85-d34de045a4ce/image"
+      },
+      {
+        "name": "Hudson St @ Erickson Pl/Beach",
+        "distance_m": 202,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/8c1ea3b6-0db6-4222-ba50-2545f8f82d71/image"
+      }
+    ]
   },
   {
     "stop_id": "216",
@@ -3724,7 +5983,8 @@
     "platforms": {
       "N": "216N",
       "S": "216S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "M04",
@@ -3735,7 +5995,8 @@
     "platforms": {
       "N": "M04N",
       "S": "M04S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "229",
@@ -3747,7 +6008,19 @@
     "platforms": {
       "N": "229N",
       "S": "229S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Broadway @ Vesey St",
+        "distance_m": 284,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/73b66e92-508f-407c-bada-883ab992fde0/image"
+      },
+      {
+        "name": "BB - Ramp from Pearl St - 156.104",
+        "distance_m": 302,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/d9cd00ff-9b8e-492f-8b02-db27b6cf847c/image"
+      }
+    ]
   },
   {
     "stop_id": "418",
@@ -3759,7 +6032,19 @@
     "platforms": {
       "N": "418N",
       "S": "418S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Broadway @ Vesey St",
+        "distance_m": 135,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/73b66e92-508f-407c-bada-883ab992fde0/image"
+      },
+      {
+        "name": "Church Street @ Vesey",
+        "distance_m": 197,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/5beee073-18a8-4349-af6b-75eff7a78371/image"
+      }
+    ]
   },
   {
     "stop_id": "A38",
@@ -3771,7 +6056,19 @@
     "platforms": {
       "N": "A38N",
       "S": "A38S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Broadway @ Vesey St",
+        "distance_m": 159,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/73b66e92-508f-407c-bada-883ab992fde0/image"
+      },
+      {
+        "name": "Church Street @ Vesey",
+        "distance_m": 292,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/5beee073-18a8-4349-af6b-75eff7a78371/image"
+      }
+    ]
   },
   {
     "stop_id": "G36",
@@ -3782,7 +6079,19 @@
     "platforms": {
       "N": "G36N",
       "S": "G36S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Flatbush Ave Bet. 3 Ave & Fulton St",
+        "distance_m": 362,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/db1570e7-17a4-4916-9f42-cc8ca17aa42e/image"
+      },
+      {
+        "name": "Atlantic Ave @ Barclays Center",
+        "distance_m": 399,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/053afe02-e1b3-4bea-9995-787e72c7fff4/image"
+      }
+    ]
   },
   {
     "stop_id": "M22",
@@ -3794,7 +6103,19 @@
     "platforms": {
       "N": "M22N",
       "S": "M22S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Broadway @ Vesey St",
+        "distance_m": 148,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/73b66e92-508f-407c-bada-883ab992fde0/image"
+      },
+      {
+        "name": "Church Street @ Vesey",
+        "distance_m": 285,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/5beee073-18a8-4349-af6b-75eff7a78371/image"
+      }
+    ]
   },
   {
     "stop_id": "J30",
@@ -3806,7 +6127,14 @@
     "platforms": {
       "N": "J30N",
       "S": "J30S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Bushwick Ave @ Gates Ave",
+        "distance_m": 349,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/74707723-013b-4bf1-9a8b-c209dbf71984/image"
+      }
+    ]
   },
   {
     "stop_id": "L11",
@@ -3817,7 +6145,19 @@
     "platforms": {
       "N": "L11N",
       "S": "L11S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Grand St @ Graham Ave",
+        "distance_m": 325,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/7609996b-ec61-4c06-bb58-c9aa93c65b80/image"
+      },
+      {
+        "name": "Grand St @ Bushwick Ave",
+        "distance_m": 392,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/6ac8b6d3-62c8-4077-a0a6-f66d922376eb/image"
+      }
+    ]
   },
   {
     "stop_id": "237",
@@ -3830,7 +6170,19 @@
     "platforms": {
       "N": "237N",
       "S": "237S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Flatbush Ave @ Eastern Pkwy",
+        "distance_m": 309,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/cb68b8b1-9093-4f2e-acf2-8133b047e8df/image"
+      },
+      {
+        "name": "Grand Army Plaza",
+        "distance_m": 336,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/1c51b3ec-3d29-4025-928d-4e182e7c0bd5/image"
+      }
+    ]
   },
   {
     "stop_id": "G12",
@@ -3844,7 +6196,8 @@
     "platforms": {
       "N": "G12N",
       "S": "G12S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "631",
@@ -3857,7 +6210,19 @@
     "platforms": {
       "N": "631N",
       "S": "631S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Lexington Ave @ 42 St",
+        "distance_m": 76,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/1546f761-039c-4b5c-af5e-75c83c9f603f/image"
+      },
+      {
+        "name": "3 Ave @ 42 St",
+        "distance_m": 230,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/5352e130-4668-4be5-a7b9-9e1ce4ea6d4c/image"
+      }
+    ]
   },
   {
     "stop_id": "723",
@@ -3868,7 +6233,19 @@
     "platforms": {
       "N": "723N",
       "S": "723S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Lexington Ave @ 42 St",
+        "distance_m": 3,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/1546f761-039c-4b5c-af5e-75c83c9f603f/image"
+      },
+      {
+        "name": "3 Ave @ 42 St",
+        "distance_m": 152,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/5352e130-4668-4be5-a7b9-9e1ce4ea6d4c/image"
+      }
+    ]
   },
   {
     "stop_id": "901",
@@ -3879,7 +6256,19 @@
     "platforms": {
       "N": "901N",
       "S": "901S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Madison Ave @ 42 St",
+        "distance_m": 9,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/d1363c77-e061-4414-be82-e6d749254859/image"
+      },
+      {
+        "name": "Madison Ave @ E 43 St",
+        "distance_m": 81,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/c6d013c9-e69b-4824-8dad-b6580491d916/image"
+      }
+    ]
   },
   {
     "stop_id": "D22",
@@ -3891,7 +6280,19 @@
     "platforms": {
       "N": "D22N",
       "S": "D22S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Grand St @ Bowery",
+        "distance_m": 92,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/c733e881-862d-4874-9d00-9bfdc3b27cbc/image"
+      },
+      {
+        "name": "Grand St @ Allen St",
+        "distance_m": 228,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/48cd1b5b-f361-4683-9d83-492d4789d7ea/image"
+      }
+    ]
   },
   {
     "stop_id": "L12",
@@ -3902,7 +6303,19 @@
     "platforms": {
       "N": "L12N",
       "S": "L12S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Grand St @ Bushwick Ave",
+        "distance_m": 18,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/6ac8b6d3-62c8-4077-a0a6-f66d922376eb/image"
+      },
+      {
+        "name": "Grand St @ Graham Ave",
+        "distance_m": 275,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/7609996b-ec61-4c06-bb58-c9aa93c65b80/image"
+      }
+    ]
   },
   {
     "stop_id": "A57",
@@ -3913,7 +6326,8 @@
     "platforms": {
       "N": "A57N",
       "S": "A57S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "S23",
@@ -3924,7 +6338,8 @@
     "platforms": {
       "N": "S23N",
       "S": "S23S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "S27",
@@ -3935,7 +6350,8 @@
     "platforms": {
       "N": "S27N",
       "S": "S27S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "S19",
@@ -3946,7 +6362,14 @@
     "platforms": {
       "N": "S19N",
       "S": "S19S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Amboy Rd @ Nelson Ave",
+        "distance_m": 152,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/5920b7ab-9e05-429f-971a-b235f3ea8dd9/image"
+      }
+    ]
   },
   {
     "stop_id": "G26",
@@ -3957,7 +6380,19 @@
     "platforms": {
       "N": "G26N",
       "S": "G26S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "McGuinness Blvd @ Greenpoint Ave",
+        "distance_m": 262,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/4b601090-d552-4c2c-804f-1360305f3dd5/image"
+      },
+      {
+        "name": "McGuinness Blvd @ Green St",
+        "distance_m": 347,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/195870e2-8714-45c6-86ba-8ae079ef738c/image"
+      }
+    ]
   },
   {
     "stop_id": "208",
@@ -3969,7 +6404,19 @@
     "platforms": {
       "N": "208N",
       "S": "208S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Bronx River Pkwy @ East Gun Hill RD (NB)",
+        "distance_m": 303,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/36ff050c-ba9c-4920-beaf-ea3b02f2cde5/image"
+      },
+      {
+        "name": "Bronx River Pkwy @ E Gun Hill RD",
+        "distance_m": 322,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/42446823-2f5a-4db0-a99e-3766d0822485/image"
+      }
+    ]
   },
   {
     "stop_id": "503",
@@ -3980,7 +6427,8 @@
     "platforms": {
       "N": "503N",
       "S": "503S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "J29",
@@ -3991,7 +6439,14 @@
     "platforms": {
       "N": "J29N",
       "S": "J29S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Bushwick Ave @ Gates Ave",
+        "distance_m": 493,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/74707723-013b-4bf1-9a8b-c209dbf71984/image"
+      }
+    ]
   },
   {
     "stop_id": "L19",
@@ -4002,7 +6457,8 @@
     "platforms": {
       "N": "L19N",
       "S": "L19S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "301",
@@ -4013,7 +6469,19 @@
     "platforms": {
       "N": "301N",
       "S": "301S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Harlem River Dr @ 150 St",
+        "distance_m": 170,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/dfc5bbff-683c-483d-bed5-8ff2b7c4781b/image"
+      },
+      {
+        "name": "7 Ave @ 145 St",
+        "distance_m": 332,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/61890a52-c90e-41a1-b032-d5c6f39746d9/image"
+      }
+    ]
   },
   {
     "stop_id": "M14",
@@ -4025,7 +6493,19 @@
     "platforms": {
       "N": "M14N",
       "S": "M14S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "C2-BQE-25-WB_at_S.5th_St-Ex32",
+        "distance_m": 389,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/c79840eb-e25e-41cc-8a54-f8eaa6e29463/image"
+      },
+      {
+        "name": "Grand St (Borinquen Pl) @ Union Ave",
+        "distance_m": 496,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/8188de4c-c144-4897-bee4-767022b832e9/image"
+      }
+    ]
   },
   {
     "stop_id": "A40",
@@ -4037,7 +6517,19 @@
     "platforms": {
       "N": "A40N",
       "S": "A40S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Cadman Plz W @ Prospect St - quad - ptz - 1.2",
+        "distance_m": 162,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/6a896a3f-45cc-4611-86aa-5ded034217ea/image"
+      },
+      {
+        "name": "Cadman Plz W @ Prospect St - quad - 1.3",
+        "distance_m": 162,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/96ea2271-4739-40bb-9aea-6429c63dfb34/image"
+      }
+    ]
   },
   {
     "stop_id": "134",
@@ -4049,7 +6541,19 @@
     "platforms": {
       "N": "134N",
       "S": "134S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "West Houston @ Varick St",
+        "distance_m": 39,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/db84e6bd-1436-4213-bbfb-f6e0ceab38c7/image"
+      },
+      {
+        "name": "West Houston @ Hudson St",
+        "distance_m": 159,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/0ff11926-fcf0-4e3b-8aea-ffc0ea4f2228/image"
+      }
+    ]
   },
   {
     "stop_id": "H03",
@@ -4060,7 +6564,8 @@
     "platforms": {
       "N": "H03N",
       "S": "H03S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "233",
@@ -4072,7 +6577,19 @@
     "platforms": {
       "N": "233N",
       "S": "233S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Flatbush Ave @ Willoughby",
+        "distance_m": 250,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/f3d14ce1-8df5-4c5c-88b8-f17f56077e04/image"
+      },
+      {
+        "name": "Flatbush Ave @ DeKalb Ave",
+        "distance_m": 296,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/243e945a-b872-4bac-9898-94ce8963ef44/image"
+      }
+    ]
   },
   {
     "stop_id": "A42",
@@ -4085,7 +6602,19 @@
     "platforms": {
       "N": "A42N",
       "S": "A42S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Flatbush Ave @ DeKalb Ave",
+        "distance_m": 330,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/243e945a-b872-4bac-9898-94ce8963ef44/image"
+      },
+      {
+        "name": "Flatbush Ave @ Willoughby",
+        "distance_m": 383,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/f3d14ce1-8df5-4c5c-88b8-f17f56077e04/image"
+      }
+    ]
   },
   {
     "stop_id": "S16",
@@ -4096,7 +6625,8 @@
     "platforms": {
       "N": "S16N",
       "S": "S16S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "720",
@@ -4107,7 +6637,19 @@
     "platforms": {
       "N": "720N",
       "S": "720S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Long Island Expy @ QMT @ Pulaski Br",
+        "distance_m": 186,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/67f77766-bd19-4082-adeb-88d59866c490/image"
+      },
+      {
+        "name": "Jackson Ave @ 11 ST",
+        "distance_m": 244,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/76c47885-cc54-4e0d-989c-01cf1256dd1a/image"
+      }
+    ]
   },
   {
     "stop_id": "613",
@@ -4118,7 +6660,14 @@
     "platforms": {
       "N": "613N",
       "S": "613S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Bruckner Expy @ Sheridian Blvd",
+        "distance_m": 251,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/e38f2549-cdbf-4d78-a0c6-d71e5421ac1e/image"
+      }
+    ]
   },
   {
     "stop_id": "218",
@@ -4130,7 +6679,8 @@
     "platforms": {
       "N": "218N",
       "S": "218S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "A02",
@@ -4141,7 +6691,8 @@
     "platforms": {
       "N": "A02N",
       "S": "A02S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "220",
@@ -4153,7 +6704,8 @@
     "platforms": {
       "N": "220N",
       "S": "220S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "G14",
@@ -4167,7 +6719,19 @@
     "platforms": {
       "N": "G14N",
       "S": "G14S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Roosevelt Ave @ Broadway & \u00a074 st",
+        "distance_m": 31,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/9d7c4525-fba3-4ffe-ae79-f814f7dccf4e/image"
+      },
+      {
+        "name": "C5-BQE-37-EB_at_41st_Ave",
+        "distance_m": 325,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/b5b12361-b5b6-483f-a76e-b6cf98e06694/image"
+      }
+    ]
   },
   {
     "stop_id": "G05",
@@ -4180,7 +6744,8 @@
     "platforms": {
       "N": "G05N",
       "S": "G05S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "F01",
@@ -4192,7 +6757,8 @@
     "platforms": {
       "N": "F01N",
       "S": "F01S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "G07",
@@ -4203,7 +6769,14 @@
     "platforms": {
       "N": "G07N",
       "S": "G07S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Queens Blvd @ Hillside Ave",
+        "distance_m": 226,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/5c29ba71-1757-45db-8318-e1a2bad57e75/image"
+      }
+    ]
   },
   {
     "stop_id": "A41",
@@ -4216,7 +6789,19 @@
     "platforms": {
       "N": "A41N",
       "S": "A41S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Tillary St EB @ Jay St",
+        "distance_m": 408,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/ae67eb8d-0aed-4204-b7a1-3621ed9eef65/image"
+      },
+      {
+        "name": "Tillary St @ Jay St",
+        "distance_m": 416,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/d7ee32d6-895f-4e37-bdd9-f97b06b24f3d/image"
+      }
+    ]
   },
   {
     "stop_id": "R29",
@@ -4229,7 +6814,19 @@
     "platforms": {
       "N": "R29N",
       "S": "R29S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Flatbush Ave @ Willoughby",
+        "distance_m": 331,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/f3d14ce1-8df5-4c5c-88b8-f17f56077e04/image"
+      },
+      {
+        "name": "Flatbush Ave @ Tillary St",
+        "distance_m": 401,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/6b81f2fd-acf3-4af2-adc1-42250156ece8/image"
+      }
+    ]
   },
   {
     "stop_id": "S24",
@@ -4240,7 +6837,8 @@
     "platforms": {
       "N": "S24N",
       "S": "S24S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "L15",
@@ -4251,7 +6849,8 @@
     "platforms": {
       "N": "L15N",
       "S": "L15S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "707",
@@ -4262,7 +6861,8 @@
     "platforms": {
       "N": "707N",
       "S": "707S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "254",
@@ -4276,7 +6876,8 @@
     "platforms": {
       "N": "254N",
       "S": "254S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "F06",
@@ -4288,7 +6889,19 @@
     "platforms": {
       "N": "F06N",
       "S": "F06S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Queens Blvd @ Union TPKE",
+        "distance_m": 20,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/57e5f44a-4515-4bc2-877b-e6373fce5a66/image"
+      },
+      {
+        "name": "C5-GCP-14_WB_at_76th_Road-Ex13",
+        "distance_m": 266,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/4589cc19-b5b5-4696-a199-20f753ec74c4/image"
+      }
+    ]
   },
   {
     "stop_id": "D35",
@@ -4300,7 +6913,14 @@
     "platforms": {
       "N": "D35N",
       "S": "D35S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Coney Island Ave @ Kings Hwy",
+        "distance_m": 370,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/899dfa1e-a2c5-490a-b8ba-480493634846/image"
+      }
+    ]
   },
   {
     "stop_id": "F35",
@@ -4311,7 +6931,8 @@
     "platforms": {
       "N": "F35N",
       "S": "F35S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "N08",
@@ -4323,7 +6944,8 @@
     "platforms": {
       "N": "N08N",
       "S": "N08S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "406",
@@ -4334,7 +6956,8 @@
     "platforms": {
       "N": "406N",
       "S": "406S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "D04",
@@ -4346,7 +6969,8 @@
     "platforms": {
       "N": "D04N",
       "S": "D04S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "249",
@@ -4360,7 +6984,8 @@
     "platforms": {
       "N": "249N",
       "S": "249S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "A47",
@@ -4372,7 +6997,8 @@
     "platforms": {
       "N": "A47N",
       "S": "A47S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "M09",
@@ -4383,7 +7009,8 @@
     "platforms": {
       "N": "M09N",
       "S": "M09S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "J31",
@@ -4394,7 +7021,14 @@
     "platforms": {
       "N": "J31N",
       "S": "J31S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Bushwick Ave @ De Kalb Ave",
+        "distance_m": 198,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/068461e2-c62f-4ce4-adac-5f9efe92af1d/image"
+      }
+    ]
   },
   {
     "stop_id": "A43",
@@ -4406,7 +7040,19 @@
     "platforms": {
       "N": "A43N",
       "S": "A43S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Atlantic Ave @ Barclays Center",
+        "distance_m": 335,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/053afe02-e1b3-4bea-9995-787e72c7fff4/image"
+      },
+      {
+        "name": "Flatbush Ave and Atlantic Ave",
+        "distance_m": 413,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/fa287d30-44a9-48ef-90d6-5ab0a54eab15/image"
+      }
+    ]
   },
   {
     "stop_id": "F11",
@@ -4418,7 +7064,19 @@
     "platforms": {
       "N": "F11N",
       "S": "F11S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Lexington Ave @ 53 St ",
+        "distance_m": 189,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/e777e4b4-25cb-4c39-98fc-8d6b25cf7de7/image"
+      },
+      {
+        "name": "3 Ave @ 49 St",
+        "distance_m": 319,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/5bb6d7d8-39ce-43b8-b539-376fbcf73927/image"
+      }
+    ]
   },
   {
     "stop_id": "R11",
@@ -4431,7 +7089,19 @@
     "platforms": {
       "N": "R11N",
       "S": "R11S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Lexington Ave @ 57 ST",
+        "distance_m": 250,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/180dcc87-d861-43e3-8898-9ad5ee1a26a9/image"
+      },
+      {
+        "name": "3 Ave @ 57 St",
+        "distance_m": 269,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/62b3062d-542f-40f1-86ec-206710e789b6/image"
+      }
+    ]
   },
   {
     "stop_id": "B08",
@@ -4446,7 +7116,19 @@
     "platforms": {
       "N": "B08N",
       "S": "B08S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "E 63 St @ QBB",
+        "distance_m": 437,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/06d36cfe-a331-4cfd-8ff1-84e4d711e418/image"
+      },
+      {
+        "name": "62 St @ QBB Upper Level exit ramp",
+        "distance_m": 441,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/a26130e0-3c9b-4f43-b253-209d80d441f8/image"
+      }
+    ]
   },
   {
     "stop_id": "A52",
@@ -4458,7 +7140,19 @@
     "platforms": {
       "N": "A52N",
       "S": "A52S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Atlantic Ave @ Pennsylvania Ave",
+        "distance_m": 142,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/0bbea8bd-10f1-4126-b3c5-9e9432eab749/image"
+      },
+      {
+        "name": "Jackie Robinson Pkwy @ Jamaica Ave",
+        "distance_m": 418,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/48a0813b-60b4-4dd2-953f-a40731ae1fba/image"
+      }
+    ]
   },
   {
     "stop_id": "L26",
@@ -4469,7 +7163,8 @@
     "platforms": {
       "N": "L26N",
       "S": "L26S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "614",
@@ -4480,7 +7175,8 @@
     "platforms": {
       "N": "614N",
       "S": "614S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "L10",
@@ -4491,7 +7187,19 @@
     "platforms": {
       "N": "L10N",
       "S": "L10S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Metropolitan Ave @ Union Ave",
+        "distance_m": 115,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/ba4a1b3a-6e33-4742-a471-18f204f488ef/image"
+      },
+      {
+        "name": "C2-BQE-27-EB_at_Mtrpolitan_Av-Ex32",
+        "distance_m": 256,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/6232350a-c27c-4964-a6e8-7bd0507b6826/image"
+      }
+    ]
   },
   {
     "stop_id": "M13",
@@ -4503,7 +7211,8 @@
     "platforms": {
       "N": "M13N",
       "S": "M13S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "106",
@@ -4514,7 +7223,19 @@
     "platforms": {
       "N": "106N",
       "S": "106S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Major Deegan Expwy @ 225 St",
+        "distance_m": 362,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/a65f8b8a-c0ba-4138-81a5-783ba837490d/image"
+      },
+      {
+        "name": "Major Deegan Expwy @ 230 St",
+        "distance_m": 477,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/041f8f94-fcf8-4860-9a5d-c81fb5c97501/image"
+      }
+    ]
   },
   {
     "stop_id": "M16",
@@ -4527,7 +7248,19 @@
     "platforms": {
       "N": "M16N",
       "S": "M16S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "C2-BQE-25-WB_at_S.5th_St-Ex32",
+        "distance_m": 100,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/c79840eb-e25e-41cc-8a54-f8eaa6e29463/image"
+      },
+      {
+        "name": "Grand St (Borinquen PL) @ South 4 St",
+        "distance_m": 232,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/c173fe45-9067-4582-81ef-cab0aad56afd/image"
+      }
+    ]
   },
   {
     "stop_id": "G29",
@@ -4538,7 +7271,19 @@
     "platforms": {
       "N": "G29N",
       "S": "G29S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Metropolitan Ave @ Union Ave",
+        "distance_m": 142,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/ba4a1b3a-6e33-4742-a471-18f204f488ef/image"
+      },
+      {
+        "name": "C2-BQE-27-EB_at_Mtrpolitan_Av-Ex32",
+        "distance_m": 186,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/6232350a-c27c-4964-a6e8-7bd0507b6826/image"
+      }
+    ]
   },
   {
     "stop_id": "702",
@@ -4549,7 +7294,8 @@
     "platforms": {
       "N": "702N",
       "S": "702S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "M01",
@@ -4560,7 +7306,8 @@
     "platforms": {
       "N": "M01N",
       "S": "M01S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "603",
@@ -4571,7 +7318,14 @@
     "platforms": {
       "N": "603N",
       "S": "603S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Hutchhinson River Pkwy @ Westchester Ave",
+        "distance_m": 167,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/15fca74d-c3e9-42ee-8f32-5b708ef36477/image"
+      }
+    ]
   },
   {
     "stop_id": "L13",
@@ -4582,7 +7336,14 @@
     "platforms": {
       "N": "L13N",
       "S": "L13S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Grand St @ Bushwick Ave",
+        "distance_m": 484,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/6ac8b6d3-62c8-4077-a0a6-f66d922376eb/image"
+      }
+    ]
   },
   {
     "stop_id": "L14",
@@ -4593,7 +7354,8 @@
     "platforms": {
       "N": "L14N",
       "S": "L14S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "505",
@@ -4604,7 +7366,14 @@
     "platforms": {
       "N": "505N",
       "S": "505S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "PELHAM PKWY @ WILLIAMSBRIDGE RD",
+        "distance_m": 461,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/4284c61f-eb9c-419d-99e4-48a7ef681e62/image"
+      }
+    ]
   },
   {
     "stop_id": "610",
@@ -4615,7 +7384,8 @@
     "platforms": {
       "N": "610N",
       "S": "610S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "402",
@@ -4626,7 +7396,14 @@
     "platforms": {
       "N": "402N",
       "S": "402S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Grand Concourse @ Moshulu Pkwy ",
+        "distance_m": 132,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/83d034f2-584b-4dab-9e3d-d70a59995dc5/image"
+      }
+    ]
   },
   {
     "stop_id": "411",
@@ -4637,7 +7414,19 @@
     "platforms": {
       "N": "411N",
       "S": "411S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "C1-CBE-05_S_SB_at_Walton_Ave-Ex2A",
+        "distance_m": 249,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/d23ec5fd-f956-4283-975a-623514b001a3/image"
+      },
+      {
+        "name": "C1-CBE-04_N - NB_at_Macombs Rd-Ex2A",
+        "distance_m": 259,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/ded03849-7c56-43e5-8e82-05b61c175aca/image"
+      }
+    ]
   },
   {
     "stop_id": "M11",
@@ -4650,7 +7439,8 @@
     "platforms": {
       "N": "M11N",
       "S": "M11S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "G32",
@@ -4661,7 +7451,8 @@
     "platforms": {
       "N": "G32N",
       "S": "G32S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "L17",
@@ -4672,7 +7463,8 @@
     "platforms": {
       "N": "L17N",
       "S": "L17S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "M08",
@@ -4683,7 +7475,8 @@
     "platforms": {
       "N": "M08N",
       "S": "M08S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "G28",
@@ -4694,7 +7487,8 @@
     "platforms": {
       "N": "G28N",
       "S": "G28S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "D38",
@@ -4705,7 +7499,8 @@
     "platforms": {
       "N": "D38N",
       "S": "D38S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "F39",
@@ -4716,7 +7511,8 @@
     "platforms": {
       "N": "F39N",
       "S": "F39S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "204",
@@ -4728,7 +7524,8 @@
     "platforms": {
       "N": "204N",
       "S": "204S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "234",
@@ -4742,7 +7539,19 @@
     "platforms": {
       "N": "234N",
       "S": "234S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Flatbush Ave @ Fulton St",
+        "distance_m": 26,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/cda76289-afd2-498e-a0e9-420a1854c38a/image"
+      },
+      {
+        "name": "Flatbush Ave Bet. 3 Ave & Fulton St",
+        "distance_m": 144,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/db1570e7-17a4-4916-9f42-cc8ca17aa42e/image"
+      }
+    ]
   },
   {
     "stop_id": "S22",
@@ -4753,7 +7562,8 @@
     "platforms": {
       "N": "S22N",
       "S": "S22S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "257",
@@ -4767,7 +7577,8 @@
     "platforms": {
       "N": "257N",
       "S": "257S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "L27",
@@ -4778,7 +7589,8 @@
     "platforms": {
       "N": "L27N",
       "S": "L27S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "N04",
@@ -4790,7 +7602,8 @@
     "platforms": {
       "N": "N04N",
       "S": "N04S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "246",
@@ -4802,7 +7615,8 @@
     "platforms": {
       "N": "246N",
       "S": "246S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "D31",
@@ -4814,7 +7628,8 @@
     "platforms": {
       "N": "D31N",
       "S": "D31S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "G16",
@@ -4828,7 +7643,19 @@
     "platforms": {
       "N": "G16N",
       "S": "G16S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Northern Blvd @ 51 St",
+        "distance_m": 357,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/36d14f1c-b6fb-474c-9703-ecfd101ead72/image"
+      },
+      {
+        "name": "Northern Blvd @ 61 St",
+        "distance_m": 420,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/9c4194e4-adfb-4a35-a4ef-c8411459545b/image"
+      }
+    ]
   },
   {
     "stop_id": "J21",
@@ -4840,7 +7667,14 @@
     "platforms": {
       "N": "J21N",
       "S": "J21S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Atlantic Ave @ Highland Pl (Berriman St)",
+        "distance_m": 247,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/e016c2e4-a602-4c4d-ab9e-fadfa7f4e703/image"
+      }
+    ]
   },
   {
     "stop_id": "D01",
@@ -4851,7 +7685,8 @@
     "platforms": {
       "N": "D01N",
       "S": "D01S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "248",
@@ -4865,7 +7700,14 @@
     "platforms": {
       "N": "248N",
       "S": "248S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Eastern Pkwy @ Bedford Ave",
+        "distance_m": 398,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/f4c47f52-9c8d-494a-92da-4dcc09a19fab/image"
+      }
+    ]
   },
   {
     "stop_id": "A46",
@@ -4877,7 +7719,14 @@
     "platforms": {
       "N": "A46N",
       "S": "A46S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Atlantic Ave @ Bedford Ave",
+        "distance_m": 290,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/2fe54994-17f6-499d-a3ab-8c6dc9dbda9e/image"
+      }
+    ]
   },
   {
     "stop_id": "S21",
@@ -4888,7 +7737,8 @@
     "platforms": {
       "N": "S21N",
       "S": "S21S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "D41",
@@ -4899,7 +7749,14 @@
     "platforms": {
       "N": "D41N",
       "S": "D41S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Ocean Pkwy @ Surf Av @ Sea Breeze Ave",
+        "distance_m": 124,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/856ef0b2-123d-4211-9619-1334fb7ac219/image"
+      }
+    ]
   },
   {
     "stop_id": "S26",
@@ -4910,7 +7767,8 @@
     "platforms": {
       "N": "S26N",
       "S": "S26S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "A65",
@@ -4921,7 +7779,8 @@
     "platforms": {
       "N": "A65N",
       "S": "A65S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "228",
@@ -4933,7 +7792,19 @@
     "platforms": {
       "N": "228N",
       "S": "228S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Church St @ Park Pl",
+        "distance_m": 46,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/b222af52-75f2-4588-80ef-354bb7c159c8/image"
+      },
+      {
+        "name": "Church Street @ Vesey",
+        "distance_m": 154,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/5beee073-18a8-4349-af6b-75eff7a78371/image"
+      }
+    ]
   },
   {
     "stop_id": "608",
@@ -4944,7 +7815,8 @@
     "platforms": {
       "N": "608N",
       "S": "608S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "D27",
@@ -4955,7 +7827,8 @@
     "platforms": {
       "N": "D27N",
       "S": "D27S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "F03",
@@ -4967,7 +7840,8 @@
     "platforms": {
       "N": "F03N",
       "S": "F03S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "601",
@@ -4978,7 +7852,19 @@
     "platforms": {
       "N": "601N",
       "S": "601S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Bruckner Expy @ Wilkinson Ave",
+        "distance_m": 149,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/d24b0435-67e7-498a-91f6-f3a65bd86be2/image"
+      },
+      {
+        "name": "C1-BRE-11-SB_at_Buhre_Ave-Ex8A",
+        "distance_m": 391,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/b19c9130-3a2d-4f7a-94a5-495eeea219ef/image"
+      }
+    ]
   },
   {
     "stop_id": "211",
@@ -4990,7 +7876,19 @@
     "platforms": {
       "N": "211N",
       "S": "211S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Pelham Pkwy W/B @ Boston Rd",
+        "distance_m": 107,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/b2924000-6eb1-4449-b201-01c0653b6c68/image"
+      },
+      {
+        "name": "Pelham Pkwy E/B @ Boston Rd",
+        "distance_m": 228,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/5654d38e-e305-4119-8cd9-8a7bba65460b/image"
+      }
+    ]
   },
   {
     "stop_id": "504",
@@ -5001,7 +7899,14 @@
     "platforms": {
       "N": "504N",
       "S": "504S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "PELHAM PKWY @ WILLIAMSBRIDGE RD",
+        "distance_m": 234,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/4284c61f-eb9c-419d-99e4-48a7ef681e62/image"
+      }
+    ]
   },
   {
     "stop_id": "255",
@@ -5015,7 +7920,8 @@
     "platforms": {
       "N": "255N",
       "S": "255S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "S14",
@@ -5026,7 +7932,8 @@
     "platforms": {
       "N": "S14N",
       "S": "S14S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "241",
@@ -5038,7 +7945,19 @@
     "platforms": {
       "N": "241N",
       "S": "241S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Rogers Ave @ Montgomery St",
+        "distance_m": 354,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/1b874f5c-e1c6-481d-bb85-8d7d92c1793b/image"
+      },
+      {
+        "name": "Eastern Pkwy @ Bedford Ave",
+        "distance_m": 468,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/f4c47f52-9c8d-494a-92da-4dcc09a19fab/image"
+      }
+    ]
   },
   {
     "stop_id": "R22",
@@ -5052,7 +7971,19 @@
     "platforms": {
       "N": "R22N",
       "S": "R22S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Houston St @ Broadway",
+        "distance_m": 149,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/5214cfe8-ccfc-42e9-8e2a-ff2865c1a518/image"
+      },
+      {
+        "name": "Houston St @ Lafeyette St",
+        "distance_m": 209,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/6fa8acf2-f5bf-4200-afde-1240868ca3e3/image"
+      }
+    ]
   },
   {
     "stop_id": "S15",
@@ -5063,7 +7994,8 @@
     "platforms": {
       "N": "S15N",
       "S": "S15S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "219",
@@ -5075,7 +8007,8 @@
     "platforms": {
       "N": "219N",
       "S": "219S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "R34",
@@ -5089,7 +8022,19 @@
     "platforms": {
       "N": "R34N",
       "S": "R34S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Prospect Expy @ 3rd Ave & 4th Ave",
+        "distance_m": 115,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/3f32e246-a88d-4b87-995f-b9dad6a092b1/image"
+      },
+      {
+        "name": "Prospect Pkwy @ 3 Ave",
+        "distance_m": 219,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/91c033b3-ecfd-4fb9-b27d-d256eb720789/image"
+      }
+    ]
   },
   {
     "stop_id": "D26",
@@ -5101,7 +8046,14 @@
     "platforms": {
       "N": "D26N",
       "S": "D26S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Flatbush Ave @ Empire Blvd",
+        "distance_m": 165,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/2e43a9d0-1df8-4a38-ae20-2e0f359bb55d/image"
+      }
+    ]
   },
   {
     "stop_id": "G21",
@@ -5114,7 +8066,19 @@
     "platforms": {
       "N": "G21N",
       "S": "G21S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Queens Blvd @ Jackson Ave",
+        "distance_m": 12,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/5507fab3-3430-4747-a9ab-ed9f7b5ba959/image"
+      },
+      {
+        "name": "Queens Plaza N @ Northern Blvd",
+        "distance_m": 110,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/a0ecf291-582c-4c42-933f-0b9ed4ce885c/image"
+      }
+    ]
   },
   {
     "stop_id": "718",
@@ -5125,7 +8089,19 @@
     "platforms": {
       "N": "718N",
       "S": "718S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "QBB @ Crescent St",
+        "distance_m": 49,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/1b3248f9-f26e-4f36-943f-b7a7731595fb/image"
+      },
+      {
+        "name": "Queens Plz S @ 27 St",
+        "distance_m": 54,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/cb0647f4-b9fd-4065-a297-ebfcd4f8d270/image"
+      }
+    ]
   },
   {
     "stop_id": "R09",
@@ -5137,7 +8113,19 @@
     "platforms": {
       "N": "R09N",
       "S": "R09S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "QBB @ Crescent St",
+        "distance_m": 49,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/1b3248f9-f26e-4f36-943f-b7a7731595fb/image"
+      },
+      {
+        "name": "Queens Plz S @ 27 St",
+        "distance_m": 54,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/cb0647f4-b9fd-4065-a297-ebfcd4f8d270/image"
+      }
+    ]
   },
   {
     "stop_id": "A49",
@@ -5149,7 +8137,8 @@
     "platforms": {
       "N": "A49N",
       "S": "A49S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "139",
@@ -5160,7 +8149,19 @@
     "platforms": {
       "N": "139N",
       "S": "139S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "West st and West Thames (Battery tunnel)",
+        "distance_m": 159,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/86d418ab-10bc-4b73-a283-153abffabb0f/image"
+      },
+      {
+        "name": "West street underpass entrance",
+        "distance_m": 174,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/5efba010-6a58-4df5-ae2c-ef1eda48fad0/image"
+      }
+    ]
   },
   {
     "stop_id": "R26",
@@ -5173,7 +8174,19 @@
     "platforms": {
       "N": "R26N",
       "S": "R26S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Broadway @ Morris St",
+        "distance_m": 148,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/08328372-55a2-448a-b180-9b4bce0b8d9e/image"
+      },
+      {
+        "name": "West st and West Thames (Battery tunnel)",
+        "distance_m": 201,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/86d418ab-10bc-4b73-a283-153abffabb0f/image"
+      }
+    ]
   },
   {
     "stop_id": "S13",
@@ -5184,7 +8197,8 @@
     "platforms": {
       "N": "S13N",
       "S": "S13S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "253",
@@ -5198,7 +8212,8 @@
     "platforms": {
       "N": "253N",
       "S": "253S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "A50",
@@ -5210,7 +8225,14 @@
     "platforms": {
       "N": "A50N",
       "S": "A50S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Atlantic Ave @ Eastern Pkwy",
+        "distance_m": 380,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/fde1748c-7c0f-4df8-8acd-120df29a9305/image"
+      }
+    ]
   },
   {
     "stop_id": "A61",
@@ -5221,7 +8243,19 @@
     "platforms": {
       "N": "A61N",
       "S": "A61S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Woodhaven Blvd @ Liberty Ave",
+        "distance_m": 69,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/bdf81be6-bce0-4dfc-91d4-946647f2553e/image"
+      },
+      {
+        "name": "Woodhaven Blvd @ Rockaway Blvd",
+        "distance_m": 114,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/1d839733-c963-44bc-9da4-f02ba20ca307/image"
+      }
+    ]
   },
   {
     "stop_id": "H15",
@@ -5232,7 +8266,14 @@
     "platforms": {
       "N": "H15N",
       "S": "H15S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Beach Channel Dr @ Beach 116 St",
+        "distance_m": 258,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/fee01ae5-3f35-4fe1-a236-417d43b64101/image"
+      }
+    ]
   },
   {
     "stop_id": "B06",
@@ -5244,7 +8285,19 @@
     "platforms": {
       "N": "B06N",
       "S": "B06S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "QBB UL CM @ Roosevelt",
+        "distance_m": 270,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/2e5f0c0e-575d-4323-86ec-63e75acbf129/image"
+      },
+      {
+        "name": "FDR Dr @ 64 St",
+        "distance_m": 305,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/c5040f93-f4ec-4803-8370-8b931b0443e2/image"
+      }
+    ]
   },
   {
     "stop_id": "252",
@@ -5258,7 +8311,8 @@
     "platforms": {
       "N": "252N",
       "S": "252S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "M06",
@@ -5269,7 +8323,8 @@
     "platforms": {
       "N": "M06N",
       "S": "M06S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "D39",
@@ -5281,7 +8336,8 @@
     "platforms": {
       "N": "D39N",
       "S": "D39S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "A54",
@@ -5293,7 +8349,8 @@
     "platforms": {
       "N": "A54N",
       "S": "A54S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "217",
@@ -5305,7 +8362,14 @@
     "platforms": {
       "N": "217N",
       "S": "217S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Bruckner Expy @ Sheridian Blvd",
+        "distance_m": 474,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/e38f2549-cdbf-4d78-a0c6-d71e5421ac1e/image"
+      }
+    ]
   },
   {
     "stop_id": "F22",
@@ -5317,7 +8381,19 @@
     "platforms": {
       "N": "F22N",
       "S": "F22S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Smith St @ 9 St - 170.106",
+        "distance_m": 207,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/d766db98-8b2c-406a-b0ea-f437e2216157/image"
+      },
+      {
+        "name": "Hamilton Ave @ 9 St",
+        "distance_m": 456,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/dfed3e07-de07-4243-8a41-509a1800cd1e/image"
+      }
+    ]
   },
   {
     "stop_id": "142",
@@ -5328,7 +8404,19 @@
     "platforms": {
       "N": "142N",
       "S": "142S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Water St @ Whitehall",
+        "distance_m": 81,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/fd82a010-c29e-4bcb-8d70-dd2204879a97/image"
+      },
+      {
+        "name": "1st camera North Bound BPU -148.51",
+        "distance_m": 115,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/22df28bd-413a-4847-9bb7-35a36c914264/image"
+      }
+    ]
   },
   {
     "stop_id": "638",
@@ -5340,7 +8428,19 @@
     "platforms": {
       "N": "638N",
       "S": "638S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Kenmare St @ Cleveland pl",
+        "distance_m": 95,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/93dea5a7-a63f-4415-ae12-f32b62540f11/image"
+      },
+      {
+        "name": "Broome St and Lafayette St",
+        "distance_m": 156,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/85837859-3e5d-4e1b-8740-1c2ea3ed5662/image"
+      }
+    ]
   },
   {
     "stop_id": "A33",
@@ -5353,7 +8453,19 @@
     "platforms": {
       "N": "A33N",
       "S": "A33S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "6 Ave @ West Houston St",
+        "distance_m": 247,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/04589f46-2429-4e26-ad46-12a1198e9a9c/image"
+      },
+      {
+        "name": "Varick st @ Broome st",
+        "distance_m": 281,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/58ca7f66-a60c-4b2d-9cb5-a68e8ac545ac/image"
+      }
+    ]
   },
   {
     "stop_id": "S31",
@@ -5364,7 +8476,14 @@
     "platforms": {
       "N": "S31N",
       "S": "S31S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Bay St @ Richmond Terr.",
+        "distance_m": 212,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/d125f801-5576-4e42-874c-a643a86019c0/image"
+      }
+    ]
   },
   {
     "stop_id": "609",
@@ -5375,7 +8494,8 @@
     "platforms": {
       "N": "609N",
       "S": "609S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "S29",
@@ -5386,7 +8506,8 @@
     "platforms": {
       "N": "S29N",
       "S": "S29S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "G19",
@@ -5400,7 +8521,8 @@
     "platforms": {
       "N": "G19N",
       "S": "G19S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "242",
@@ -5412,7 +8534,14 @@
     "platforms": {
       "N": "242N",
       "S": "242S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Rogers Ave @ Montgomery St",
+        "distance_m": 393,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/1b874f5c-e1c6-481d-bb85-8d7d92c1793b/image"
+      }
+    ]
   },
   {
     "stop_id": "F04",
@@ -5424,7 +8553,19 @@
     "platforms": {
       "N": "F04N",
       "S": "F04S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Queens Blvd @ Hillside Ave",
+        "distance_m": 406,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/5c29ba71-1757-45db-8318-e1a2bad57e75/image"
+      },
+      {
+        "name": "Jamaica Ave @ Sutphin Blvd",
+        "distance_m": 473,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/36b00c79-b2a0-49d3-800a-42b7db1847a8/image"
+      }
+    ]
   },
   {
     "stop_id": "G06",
@@ -5437,7 +8578,14 @@
     "platforms": {
       "N": "G06N",
       "S": "G06S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Jamaica Ave @ Sutphin Blvd",
+        "distance_m": 141,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/36b00c79-b2a0-49d3-800a-42b7db1847a8/image"
+      }
+    ]
   },
   {
     "stop_id": "L25",
@@ -5448,7 +8596,8 @@
     "platforms": {
       "N": "L25N",
       "S": "L25S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "251",
@@ -5462,7 +8611,8 @@
     "platforms": {
       "N": "251N",
       "S": "251S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "127",
@@ -5475,7 +8625,19 @@
     "platforms": {
       "N": "127N",
       "S": "127S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "7 Ave @ 40 St",
+        "distance_m": 69,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/5d055599-875a-4010-991f-e7e454889052/image"
+      },
+      {
+        "name": "7 AVE @ 42 St",
+        "distance_m": 102,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/bca4a4b0-d73f-4937-9301-85ff8293bd94/image"
+      }
+    ]
   },
   {
     "stop_id": "725",
@@ -5486,7 +8648,19 @@
     "platforms": {
       "N": "725N",
       "S": "725S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "7 Ave @ 40 St",
+        "distance_m": 83,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/5d055599-875a-4010-991f-e7e454889052/image"
+      },
+      {
+        "name": "7 AVE @ 42 St",
+        "distance_m": 95,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/bca4a4b0-d73f-4937-9301-85ff8293bd94/image"
+      }
+    ]
   },
   {
     "stop_id": "902",
@@ -5497,7 +8671,19 @@
     "platforms": {
       "N": "902N",
       "S": "902S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Broadway @ 42 St",
+        "distance_m": 25,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/9565e94d-66f2-4965-9c13-82d5500d6cfd/image"
+      },
+      {
+        "name": "7 AVE @ 42 St",
+        "distance_m": 58,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/bca4a4b0-d73f-4937-9301-85ff8293bd94/image"
+      }
+    ]
   },
   {
     "stop_id": "R16",
@@ -5511,7 +8697,19 @@
     "platforms": {
       "N": "R16N",
       "S": "R16S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "7 Ave @ 40 St",
+        "distance_m": 96,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/5d055599-875a-4010-991f-e7e454889052/image"
+      },
+      {
+        "name": "Broadway @ 42 St",
+        "distance_m": 130,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/9565e94d-66f2-4965-9c13-82d5500d6cfd/image"
+      }
+    ]
   },
   {
     "stop_id": "S30",
@@ -5522,7 +8720,14 @@
     "platforms": {
       "N": "S30N",
       "S": "S30S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Victory Blvd @ Bay St",
+        "distance_m": 134,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/36d22d6d-bffd-4466-8a9c-9c78a1bb9021/image"
+      }
+    ]
   },
   {
     "stop_id": "S09",
@@ -5533,7 +8738,8 @@
     "platforms": {
       "N": "S09N",
       "S": "S09S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "D07",
@@ -5545,7 +8751,8 @@
     "platforms": {
       "N": "D07N",
       "S": "D07S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "R32",
@@ -5559,7 +8766,14 @@
     "platforms": {
       "N": "R32N",
       "S": "R32S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "3 Ave @ Union St",
+        "distance_m": 226,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/ed0f8bd4-fe44-4f86-98a9-91f45b446200/image"
+      }
+    ]
   },
   {
     "stop_id": "A48",
@@ -5571,7 +8785,8 @@
     "platforms": {
       "N": "A48N",
       "S": "A48S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "101",
@@ -5582,7 +8797,14 @@
     "platforms": {
       "N": "101N",
       "S": "101S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Major Deegan Expy @Van Cortland Pk S",
+        "distance_m": 394,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/b6cd1640-fdc3-4525-bbb4-f148699876df/image"
+      }
+    ]
   },
   {
     "stop_id": "256",
@@ -5596,7 +8818,8 @@
     "platforms": {
       "N": "256N",
       "S": "256S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "A53",
@@ -5608,7 +8831,8 @@
     "platforms": {
       "N": "A53N",
       "S": "A53S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "J23",
@@ -5620,7 +8844,8 @@
     "platforms": {
       "N": "J23N",
       "S": "J23S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "721",
@@ -5631,7 +8856,19 @@
     "platforms": {
       "N": "721N",
       "S": "721S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Jackson Ave @ 11 ST",
+        "distance_m": 193,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/76c47885-cc54-4e0d-989c-01cf1256dd1a/image"
+      },
+      {
+        "name": "Long Island Expy @ QMT @ Pulaski Br",
+        "distance_m": 259,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/67f77766-bd19-4082-adeb-88d59866c490/image"
+      }
+    ]
   },
   {
     "stop_id": "A32",
@@ -5644,7 +8881,14 @@
     "platforms": {
       "N": "A32N",
       "S": "A32S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "6 Ave @ West Houston St",
+        "distance_m": 487,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/04589f46-2429-4e26-ad46-12a1198e9a9c/image"
+      }
+    ]
   },
   {
     "stop_id": "D20",
@@ -5658,7 +8902,14 @@
     "platforms": {
       "N": "D20N",
       "S": "D20S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "6 Ave @ West Houston St",
+        "distance_m": 487,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/04589f46-2429-4e26-ad46-12a1198e9a9c/image"
+      }
+    ]
   },
   {
     "stop_id": "D42",
@@ -5670,7 +8921,14 @@
     "platforms": {
       "N": "D42N",
       "S": "D42S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Stillwell Ave @ Surf Ave",
+        "distance_m": 449,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/84a2c36a-ef84-41b6-a4eb-3c3a2bf3bf10/image"
+      }
+    ]
   },
   {
     "stop_id": "138",
@@ -5681,7 +8939,19 @@
     "platforms": {
       "N": "138N",
       "S": "138S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Church Street @ Vesey",
+        "distance_m": 177,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/5beee073-18a8-4349-af6b-75eff7a78371/image"
+      },
+      {
+        "name": "West st and Fulton",
+        "distance_m": 205,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/5c4582a7-6492-41ac-9bac-fa872878117b/image"
+      }
+    ]
   },
   {
     "stop_id": "201",
@@ -5692,7 +8962,8 @@
     "platforms": {
       "N": "201N",
       "S": "201S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "230",
@@ -5704,7 +8975,19 @@
     "platforms": {
       "N": "230N",
       "S": "230S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Water St @ John St",
+        "distance_m": 346,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/ecdddb78-10be-47c6-ba27-e5d9da6b9a22/image"
+      },
+      {
+        "name": "Broadway @ Morris St",
+        "distance_m": 369,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/08328372-55a2-448a-b180-9b4bce0b8d9e/image"
+      }
+    ]
   },
   {
     "stop_id": "419",
@@ -5716,7 +8999,19 @@
     "platforms": {
       "N": "419N",
       "S": "419S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Broadway @ Morris St",
+        "distance_m": 221,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/08328372-55a2-448a-b180-9b4bce0b8d9e/image"
+      },
+      {
+        "name": "West street underpass entrance",
+        "distance_m": 311,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/5efba010-6a58-4df5-ae2c-ef1eda48fad0/image"
+      }
+    ]
   },
   {
     "stop_id": "214",
@@ -5728,7 +9023,19 @@
     "platforms": {
       "N": "214N",
       "S": "214S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "C1-SHE-02-SB_at_Cross_Brx_Expwy",
+        "distance_m": 326,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/d67b0c15-549a-42f9-b99c-13023667f724/image"
+      },
+      {
+        "name": "Crotona Pkwy @ Cross Bronx Expwy",
+        "distance_m": 473,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/4053642d-dd92-4045-ac55-069110659563/image"
+      }
+    ]
   },
   {
     "stop_id": "604",
@@ -5739,7 +9046,8 @@
     "platforms": {
       "N": "604N",
       "S": "604S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "R27",
@@ -5752,7 +9060,19 @@
     "platforms": {
       "N": "R27N",
       "S": "R27S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Water St @ Whitehall",
+        "distance_m": 79,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/fd82a010-c29e-4bcb-8d70-dd2204879a97/image"
+      },
+      {
+        "name": "1st camera North Bound BPU -148.51",
+        "distance_m": 195,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/22df28bd-413a-4847-9bb7-35a36c914264/image"
+      }
+    ]
   },
   {
     "stop_id": "612",
@@ -5763,7 +9083,8 @@
     "platforms": {
       "N": "612N",
       "S": "612S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "L20",
@@ -5774,7 +9095,8 @@
     "platforms": {
       "N": "L20N",
       "S": "L20S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "243",
@@ -5786,7 +9108,8 @@
     "platforms": {
       "N": "243N",
       "S": "243S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "G11",
@@ -5800,7 +9123,19 @@
     "platforms": {
       "N": "G11N",
       "S": "G11S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "C5-LIE-15-WB_at_Queens_Blvd-Ex19",
+        "distance_m": 42,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/ae1960ee-1f34-4774-88f5-b195b9c2a505/image"
+      },
+      {
+        "name": "Qns Blvd @ QnCnt Mall",
+        "distance_m": 52,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/52f3d48e-3bb4-4c83-bec2-1fb664d56501/image"
+      }
+    ]
   },
   {
     "stop_id": "J15",
@@ -5812,7 +9147,19 @@
     "platforms": {
       "N": "J15N",
       "S": "J15S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Woodhaven Blvd @ Jamaica Ave",
+        "distance_m": 38,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/6dd4b946-8704-4690-aa87-017a19e778c5/image"
+      },
+      {
+        "name": "Woodhaven Blvd @ Park ln",
+        "distance_m": 424,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/27cc1c4b-fb4a-41b3-845c-8fd9e2fa0a2c/image"
+      }
+    ]
   },
   {
     "stop_id": "401",
@@ -5823,7 +9170,8 @@
     "platforms": {
       "N": "401N",
       "S": "401S"
-    }
+    },
+    "cameras": []
   },
   {
     "stop_id": "E01",
@@ -5834,7 +9182,19 @@
     "platforms": {
       "N": "E01N",
       "S": "E01S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "Church Street @ Vesey",
+        "distance_m": 62,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/5beee073-18a8-4349-af6b-75eff7a78371/image"
+      },
+      {
+        "name": "Church St @ Park Pl",
+        "distance_m": 88,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/b222af52-75f2-4588-80ef-354bb7c159c8/image"
+      }
+    ]
   },
   {
     "stop_id": "F18",
@@ -5845,7 +9205,19 @@
     "platforms": {
       "N": "F18N",
       "S": "F18S"
-    }
+    },
+    "cameras": [
+      {
+        "name": "BQE  @ Pearl St",
+        "distance_m": 82,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/3576217a-82e8-4f2a-854f-3de97ef37362/image"
+      },
+      {
+        "name": "Sands St @ Jay St - quad - 149.27",
+        "distance_m": 159,
+        "image_url": "https://webcams.nyctmc.org/api/cameras/cd52aa01-1d36-4d0a-bf03-79cb78ffadae/image"
+      }
+    ]
   },
   {
     "stop_id": "606",
@@ -5856,6 +9228,7 @@
     "platforms": {
       "N": "606N",
       "S": "606S"
-    }
+    },
+    "cameras": []
   }
 ]

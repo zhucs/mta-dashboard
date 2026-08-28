@@ -257,6 +257,50 @@
     font-size: 0.85rem;
     font-style: italic;
   }
+  .camera-toggle {
+    margin-top: 1rem;
+    width: 100%;
+    padding: 0.5rem;
+    border-radius: 999px;
+    border: 2px dashed var(--route-color, var(--muted));
+    background: var(--bg);
+    color: var(--text);
+    font-family: inherit;
+    font-size: 0.8rem;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  .camera-toggle:hover {
+    background: var(--route-color, var(--muted));
+    color: white;
+  }
+  .cameras {
+    margin-top: 1rem;
+    padding-top: 0.8rem;
+    border-top: 2px dashed color-mix(in srgb, var(--route-color, var(--muted)) 40%, transparent);
+    display: flex;
+    gap: 0.6rem;
+    flex-wrap: wrap;
+  }
+  .camera {
+    width: calc(50% - 0.3rem);
+    flex-grow: 1;
+  }
+  .camera img {
+    width: 100%;
+    display: block;
+    border-radius: 8px;
+    border: 2px solid var(--route-color, var(--ink));
+    background: var(--bg);
+    aspect-ratio: 352 / 240;
+    object-fit: cover;
+  }
+  .camera-label {
+    font-size: 0.7rem;
+    color: var(--muted);
+    margin-top: 0.2rem;
+    text-align: center;
+  }
 </style>
 </head>
 <body>
@@ -271,7 +315,26 @@
 
   <script>
     const POLL_MS = 15000;
+    const CAMERA_REFRESH_MS = 2500;
     let ROUTE_COLORS = {};
+    let latestData = null;
+    const expandedCameras = new Set();
+    const cameraIntervals = new Map();
+
+    function refreshCameraImages(stopId) {
+      document.querySelectorAll(`.cameras[data-stop-id="${stopId}"] img`).forEach((img) => {
+        img.src = img.dataset.baseUrl + "?_=" + Date.now();
+      });
+    }
+
+    function toggleCamera(stopId) {
+      if (expandedCameras.has(stopId)) {
+        expandedCameras.delete(stopId);
+      } else {
+        expandedCameras.add(stopId);
+      }
+      render(latestData);
+    }
 
     function routeColor(route) {
       return (ROUTE_COLORS[route] && ROUTE_COLORS[route].color) || "#888";
@@ -290,6 +353,10 @@
     }
 
     function render(data) {
+      latestData = data;
+      cameraIntervals.forEach((intervalId) => clearInterval(intervalId));
+      cameraIntervals.clear();
+
       const grid = document.getElementById("grid");
       grid.innerHTML = "";
       for (const station of data.stations) {
@@ -346,6 +413,43 @@
           }
           block.appendChild(list);
           card.appendChild(block);
+        }
+
+        if (station.cameras && station.cameras.length > 0) {
+          const isExpanded = expandedCameras.has(station.stop_id);
+
+          const toggleBtn = document.createElement("button");
+          toggleBtn.className = "camera-toggle";
+          toggleBtn.textContent = isExpanded ? "✕ hide camera" : "📷 view nearby camera";
+          toggleBtn.addEventListener("click", () => toggleCamera(station.stop_id));
+          card.appendChild(toggleBtn);
+
+          if (isExpanded) {
+            const camWrap = document.createElement("div");
+            camWrap.className = "cameras";
+            camWrap.dataset.stopId = station.stop_id;
+            station.cameras.forEach((cam) => {
+              const camBlock = document.createElement("div");
+              camBlock.className = "camera";
+
+              const img = document.createElement("img");
+              img.dataset.baseUrl = cam.image_url;
+              img.src = cam.image_url + "?_=" + Date.now();
+              img.alt = cam.name;
+              camBlock.appendChild(img);
+
+              const label = document.createElement("div");
+              label.className = "camera-label";
+              label.textContent = `📷 ${cam.name} (${cam.distance_m}m)`;
+              camBlock.appendChild(label);
+
+              camWrap.appendChild(camBlock);
+            });
+            card.appendChild(camWrap);
+
+            const intervalId = setInterval(() => refreshCameraImages(station.stop_id), CAMERA_REFRESH_MS);
+            cameraIntervals.set(station.stop_id, intervalId);
+          }
         }
 
         grid.appendChild(card);

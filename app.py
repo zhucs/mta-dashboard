@@ -129,6 +129,7 @@ def api_arrivals():
                 "name": station["name"],
                 "route": station["route"],
                 "directions": directions_out,
+                "cameras": STATION_INDEX.get(station["stop_id"], {}).get("cameras", []),
             }
         )
     return jsonify({"generated_at": now_epoch, "stations": stations_out})
