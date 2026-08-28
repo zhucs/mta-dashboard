@@ -58,8 +58,84 @@
     text-align: center;
     color: var(--muted);
     font-size: 0.8rem;
-    margin-bottom: 2.5rem;
+    margin-bottom: 1.5rem;
   }
+  .search-wrap {
+    position: relative;
+    max-width: 420px;
+    margin: 0 auto 2.5rem;
+  }
+  #station-search {
+    width: 100%;
+    padding: 0.7rem 1rem;
+    border-radius: 999px;
+    border: 3px dashed var(--muted);
+    background: var(--card-bg);
+    color: var(--text);
+    font-family: inherit;
+    font-size: 0.95rem;
+    outline: none;
+  }
+  #station-search:focus {
+    border-color: var(--ink);
+  }
+  .search-results {
+    position: absolute;
+    top: calc(100% + 6px);
+    left: 0;
+    right: 0;
+    background: var(--card-bg);
+    border: 3px solid var(--ink);
+    border-radius: 14px;
+    box-shadow: 5px 5px 0 var(--ink);
+    padding: 0.5rem;
+    z-index: 10;
+    max-height: 320px;
+    overflow-y: auto;
+  }
+  .search-results:empty { display: none; }
+  .search-result {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.45rem 0.5rem;
+    border-radius: 8px;
+    gap: 0.5rem;
+  }
+  .search-result:hover { background: var(--bg); }
+  .search-result-name {
+    font-size: 0.9rem;
+  }
+  .search-result-routes {
+    display: flex;
+    gap: 0.3rem;
+    flex-shrink: 0;
+  }
+  .route-chip {
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.8rem;
+    font-weight: 700;
+    cursor: pointer;
+    border: none;
+    transition: transform 0.1s ease;
+  }
+  .route-chip:hover { transform: scale(1.15); }
+  .remove-btn {
+    margin-left: auto;
+    background: none;
+    border: none;
+    color: var(--muted);
+    font-size: 1.1rem;
+    cursor: pointer;
+    line-height: 1;
+    padding: 0 0.2rem;
+  }
+  .remove-btn:hover { color: var(--route-color, var(--ink)); }
   .live-dot {
     display: inline-block;
     width: 8px;
@@ -114,6 +190,9 @@
     font-size: 1.15rem;
     display: flex;
     align-items: center;
+  }
+  .card h2 .station-name {
+    flex: 1;
   }
   .route-badge {
     display: inline-flex;
@@ -184,33 +263,60 @@
   <h1><span class="choo">🚇</span> MTA Live Arrivals</h1>
   <div class="subtitle">no maps, just vibes &amp; countdowns</div>
   <div id="updated">loading…</div>
+  <div class="search-wrap">
+    <input id="station-search" type="text" placeholder="add a station… (e.g. Times Sq)" autocomplete="off" />
+    <div class="search-results" id="search-results"></div>
+  </div>
   <div class="grid" id="grid"></div>
 
   <script>
     const POLL_MS = 15000;
-    const ROUTE_COLORS = {
-      "1": "#EE352E",
-      "2": "#EE352E",
-      "3": "#EE352E",
-      "L": "#A7A9AC",
-    };
+    let ROUTE_COLORS = {};
 
-    function formatMinutes(m) {
-      if (m < 1) return "due 🐇";
-      return Math.round(m) + " min";
+    function routeColor(route) {
+      return (ROUTE_COLORS[route] && ROUTE_COLORS[route].color) || "#888";
+    }
+
+    function routeTextColor(route) {
+      return (ROUTE_COLORS[route] && ROUTE_COLORS[route].text_color) || "white";
+    }
+
+    function formatCountdown(epoch) {
+      const secondsLeft = Math.round(epoch - Date.now() / 1000);
+      if (secondsLeft <= 0) return "due 🐇";
+      const m = Math.floor(secondsLeft / 60);
+      const s = secondsLeft % 60;
+      return `${m}:${String(s).padStart(2, "0")}`;
     }
 
     function render(data) {
       const grid = document.getElementById("grid");
       grid.innerHTML = "";
       for (const station of data.stations) {
-        const color = ROUTE_COLORS[station.route] || "#888";
+        const color = routeColor(station.route);
         const card = document.createElement("div");
         card.className = "card";
         card.style.setProperty("--route-color", color);
 
         const heading = document.createElement("h2");
-        heading.innerHTML = `<span class="route-badge">${station.route}</span>${station.name}`;
+        const badge = document.createElement("span");
+        badge.className = "route-badge";
+        badge.textContent = station.route;
+        badge.style.color = routeTextColor(station.route);
+        heading.appendChild(badge);
+
+        const name = document.createElement("span");
+        name.className = "station-name";
+        name.textContent = station.name;
+        heading.appendChild(name);
+
+        const removeBtn = document.createElement("button");
+        removeBtn.className = "remove-btn";
+        removeBtn.textContent = "✕";
+        removeBtn.title = "remove station";
+        removeBtn.addEventListener("click", () => removeStation(station.stop_id, station.route));
+        heading.appendChild(removeBtn);
+
         card.appendChild(heading);
 
         for (const [dir, info] of Object.entries(station.directions)) {
@@ -233,7 +339,8 @@
             info.arrivals.forEach((a, i) => {
               const pill = document.createElement("span");
               pill.className = "pill" + (i === 0 ? " soon" : "");
-              pill.textContent = formatMinutes(a.minutes_away);
+              pill.dataset.epoch = a.arrival_epoch;
+              pill.textContent = formatCountdown(a.arrival_epoch);
               list.appendChild(pill);
             });
           }
@@ -243,6 +350,12 @@
 
         grid.appendChild(card);
       }
+    }
+
+    function tickCountdowns() {
+      document.querySelectorAll(".pill[data-epoch]").forEach((pill) => {
+        pill.textContent = formatCountdown(Number(pill.dataset.epoch));
+      });
     }
 
     async function poll() {
@@ -259,8 +372,81 @@
       }
     }
 
-    poll();
+    async function removeStation(stopId, route) {
+      await fetch("/api/stations", {
+        method: "DELETE",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ stop_id: stopId, route: route }),
+      });
+      poll();
+    }
+
+    async function addStation(stopId, route) {
+      await fetch("/api/stations", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ stop_id: stopId, route: route }),
+      });
+      document.getElementById("station-search").value = "";
+      document.getElementById("search-results").innerHTML = "";
+      poll();
+    }
+
+    let searchDebounce;
+    document.getElementById("station-search").addEventListener("input", (e) => {
+      clearTimeout(searchDebounce);
+      const query = e.target.value.trim();
+      searchDebounce = setTimeout(async () => {
+        const resultsEl = document.getElementById("search-results");
+        if (query.length < 2) {
+          resultsEl.innerHTML = "";
+          return;
+        }
+        const res = await fetch("/api/search?q=" + encodeURIComponent(query));
+        const matches = await res.json();
+        resultsEl.innerHTML = "";
+        matches.forEach((m) => {
+          const row = document.createElement("div");
+          row.className = "search-result";
+
+          const name = document.createElement("span");
+          name.className = "search-result-name";
+          name.textContent = m.name;
+          row.appendChild(name);
+
+          const routesWrap = document.createElement("span");
+          routesWrap.className = "search-result-routes";
+          m.routes.forEach((route) => {
+            const chip = document.createElement("button");
+            chip.className = "route-chip";
+            chip.textContent = route;
+            chip.style.background = routeColor(route);
+            chip.style.color = routeTextColor(route);
+            chip.addEventListener("click", () => addStation(m.stop_id, route));
+            routesWrap.appendChild(chip);
+          });
+          row.appendChild(routesWrap);
+
+          resultsEl.appendChild(row);
+        });
+      }, 250);
+    });
+
+    document.addEventListener("click", (e) => {
+      if (!e.target.closest(".search-wrap")) {
+        document.getElementById("search-results").innerHTML = "";
+      }
+    });
+
+    async function init() {
+      const res = await fetch("/api/routes");
+      ROUTE_COLORS = await res.json();
+      poll();
+    }
+
+    init();
     setInterval(poll, POLL_MS);
+    setInterval(tickCountdowns, 1000);
   </script>
 </body>
 </html>
